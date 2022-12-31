@@ -1,61 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 *{
-    max-width: 2500px;
-    margin-left: auto;
-    margin-right: auto;
-    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: Oswald, sans-serif;
 }
 
-body {
-    font-family: Oswald;
-    font-weight: 400;
-    font-size: 20px;
-    background-color:#3a3a3a;
-    color: rgb(255, 255, 255);
-    text-align: justify;
-    background-image: url(image/table.avif);
-}
-.mheading {
-    text-transform: uppercase;
-    letter-spacing: 8px;
-    font-size: 4rem;
-    text-align: center;
-    color: rgb(248, 249, 247);
-    font-family: Oswald;
-
-}
-.mheading:hover {
-    text-decoration: none;
-    color: rgb(225, 10, 10);
-}
-.social-icon {
-    background: url(image/baby1.avif) no-repeat center center;
-    background-size: cover;
+.house{
     width: 100%;
-    height: 100px;
-    text-align: center;
-    padding-top: 40px;
-    position: static;
+    height: 100vh;
+    color: rgb(255, 255, 255);
+    background-image: url(image/table.avif);
+    background-position: center;
+    background-size: cover;
+    padding-left: 2%;
+    padding-right: 2%;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 12%;
     display: flex;
-    background-blend-mode: hard-light;
-
+    align-items: center;
 }
-footer > span {
-    font-size: 20px;
-    color: rgb(58, 8, 238);
-    text-align: center;
+.logo {
+    width: 20rem;
+    cursor: pointer;
 }
-
-footer > a {
-    color: rgb(58, 8, 238);
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav {
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
     text-decoration: none;
-    padding: 0 25px;
-    font-size: 5rem;
-    text-align: center;
+    color: rgb(0, 0, 255);
+    font-size: 23px;
 }
-
-footer > p {
-    color: rgb(58, 8, 238);
-    font-size: 20px;
-    text-align: left;
-}
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    }
+    .col{
+        flex-basis: 50%;
+    }
+    h1{
+        color: rgb(205, 31, 191);
+        font-size: 100px;
+    }
+    p{
+        color: blueviolet;
+        font-size: 20px;
+        line-height: 15px;
+    
+    }
