@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    max-width: 2500px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+body {
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 20px;
+    background-color:#3a3a3a;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    background-image: url(image/table.avif);
+}
+.mheading {
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(248, 249, 247);
+    font-family: Oswald;
+
+}
+.mheading:hover {
+    text-decoration: none;
+    color: rgb(225, 10, 10);
+}
+.social-icon {
+    background: url(image/baby1.avif) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 40px;
+    position: static;
+    display: flex;
+    background-blend-mode: hard-light;
+
+}
+footer > span {
+    font-size: 20px;
+    color: rgb(58, 8, 238);
+    text-align: center;
+}
+
+footer > a {
+    color: rgb(58, 8, 238);
+    text-decoration: none;
+    padding: 0 25px;
+    font-size: 5rem;
+    text-align: center;
+}
+
+footer > p {
+    color: rgb(58, 8, 238);
+    font-size: 20px;
+    text-align: left;
+}
