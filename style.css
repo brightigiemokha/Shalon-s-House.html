@@ -8,7 +8,8 @@
 .house{
     width: 100%;
     height: 100vh;
-    color: rgb(255, 255, 255);
+    color: gold;
+    background-color: rgb(255, 255, 255);
     background-image: url(image/table.avif);
     background-position: center;
     background-size: cover;
@@ -112,79 +113,99 @@ nav ul li a{
         
     }
     .menuhouse{
-        width: 100%;
+    width: 100%;
     height: 100vh;
     color: rgb(255, 255, 255);
-    background-image: url(image/glass3.jpeg);
-    background-position: center;
-    background-size: cover;
     padding-left: 2%;
     padding-right: 2%;
     box-sizing: border-box;
 
     }
-    #secondt {
+    #menu {
         width: 100%;
-        height: 600px;
-        border: 2px white;
-        padding-left: 40px;
-        padding-right: 60px;
-        margin-top: 10px;
+        height: 450px;
+        margin-top: 40px;
         margin-bottom: 10px;
         position:relative;
         display: inline-block;
         font-size: 15px;
         text-align: center;
+        background-size: cover;
     
     }
-    #secondt h6{
+    #menu h6{
         font-size: 20px;
         font: bold;
         font-family: 'Courier New', Courier, monospace;
         padding-bottom: 2px;
     }
-    #sec-pix1 {
+    #breakf-pix1 {
         background: url(image/food.avif) no-repeat center center;
         background-size: cover;
         border: 4px solid rgb(245, 245, 245);
         width: 22%;
-        height: 580px;
+        height: 450px;
         position:relative;
         display: inline-flex;
         margin-right: 5px;
         text-align: center;
-        text
+        
         
     }
-    #sec-pix2 {
+    #lunch-pix2 {
         background: url(image/food1.jpeg) no-repeat center center;
         background-size: cover;
         border: 4px solid rgb(245, 245, 245);
         width: 22%;
-        height: 580px;
+        height: 450px;
         position: relative;
         display: inline-flex;
         margin-right: 10px;
         margin-right: 5px;
     }
-    #sec-pix3 {
+    #dinner-pix3 {
         background: url(image/food3.jpeg) no-repeat center center;
         background-size: cover;
         border: 4px solid rgb(245, 245, 245);
         width: 22%;
-        height: 580px;
+        height: 450px;
         position: relative;
         display: inline-flex;
         margin-right: 5px;
     }
-    #sec-pix4 {
+    #desert-pix4 {
         background: url(image/food5.jpeg) no-repeat center center;
         background-size: cover;
         border: 4px solid rgb(245, 245, 245);
         width: 22%;
-        height: 580px;
+        height: 450px;
         position: relative;
-        display: inline-flex
+        display: inline-flex;
+    }
+    #menu :hover {
+        transform: translateY(-10px);
+    }
+    /*rooms list*/
+    #roomvid {
+        width: 100%;
+        height: 450px;
+        border: 4px solid red;
+        color: black;
+    }
+    #room {
+        width: 50%;
+        height: 450px;
+        border: 2px solid red;
+        float: left;
+        display: flex; 
+    }
+    #roomvids {
+        width: 45%;
+        height: 450px;
+        border: 2px solid red;
+        float: right;
+        position: relative;
+        background-size: cover;
     }
     /*footer*/
 .down {
@@ -203,6 +224,11 @@ nav ul li a{
     
 
 }
+
+
+/*lefts see*/
+
+
 footer > span {
     font-size: 20px;
     color: rgb(58, 8, 238);
