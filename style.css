@@ -15,6 +15,7 @@
     padding-left: 2%;
     padding-right: 2%;
     box-sizing: border-box;
+    
 }
 /*navigation links heading and logo*/
 .navbar {
@@ -87,11 +88,14 @@ nav ul li a{
         box-sizing: border-box;
         cursor: pointer;
         margin: 10px 15px;
-        background-image: url(image/room3.jpeg);
         background-position: center;
         background-size: cover;
         font-size: 30px;
+        transition: transform 0.5s;
         
+    }
+    .one{
+        background-image: url(image/room3.jpeg);
     }
 
     .two{
@@ -103,3 +107,43 @@ nav ul li a{
     .four{
         background-image: url(image/gym3.jpeg);
     }
+    .files :hover {
+        transform: translateY(-10px);
+        
+    }
+    /*footer*/
+.down {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    border: 4px solid pink;
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+    width: 99%;
+    height: 100%;
+    text-align: left;
+    
+
+}
+footer > span {
+    font-size: 20px;
+    color: rgb(58, 8, 238);
+    text-align: center;
+}
+
+footer > a {
+    color: rgb(58, 8, 238);
+    text-decoration: none;
+    padding: 0 25px;
+    font-size: 3rem;
+    text-align: left;
+}
+
+footer > p {
+    color: rgb(58, 8, 238);
+    font-size: 20px;
+    text-align: left;
+}
