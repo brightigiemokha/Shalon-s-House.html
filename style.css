@@ -16,6 +16,7 @@
     padding-right: 2%;
     box-sizing: border-box;
 }
+/*navigation links heading and logo*/
 .navbar {
     height: 12%;
     display: flex;
@@ -44,6 +45,7 @@ nav ul li a{
     color: rgb(0, 0, 255);
     font-size: 23px;
 }
+/*heading*/
 .row {
     display: flex;
     height: 88%;
@@ -60,20 +62,23 @@ nav ul li a{
         color: blueviolet;
         font-size: 20px;
         line-height: 15px;
+        text-align: center;
     
     }
     button {
-        padding: 10px 0;
+        padding: 20px 0;
         font-size: 40px;
         width: 200px;
         color:blue;
         border: 2px solid rgb(205, 31, 191);
-        border-radius: 25%;
+        border-radius: 20%;
         outline: none;
         margin-top: 20px;
+        margin-left: 14rem;
 
     }
-    .stages{
+    /*for the picture menus*/
+    .files{
         width: 200px;
         height: 230px;
         display: inline-block;
@@ -82,16 +87,19 @@ nav ul li a{
         box-sizing: border-box;
         cursor: pointer;
         margin: 10px 15px;
-        background-image: url(image/building.avif);
+        background-image: url(image/room3.jpeg);
         background-position: center;
         background-size: cover;
+        font-size: 30px;
+        
     }
+
     .two{
-        background-image: url(image/building.avif);
+        background-image: url(image/food3.jpeg);
     }
     .three{
-        background-image: url(image/building.avif);
+        background-image: url(image/bar.jpeg);
     }
     .four{
-        background-image: url(image/building.avif);
+        background-image: url(image/gym3.jpeg);
     }
