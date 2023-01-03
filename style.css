@@ -138,7 +138,7 @@ nav ul li a{
         display: inline-block;
         font-size: 20px;
         text-align: center;
-        color: rgb(140, 233, 150);
+        color: rgb(205, 31, 191);;
         border-top: 4px solid rgb(253, 251, 251);
     
     }
@@ -282,6 +282,175 @@ nav ul li a{
         background-color: rgb(0, 0, 0);
         padding-bottom: 20px;
 
+    }
+    /*gallery section*/
+    #gallary{
+        width: 100%;
+        height: 900px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+        align-items: center;
+    }
+    #gallery1{
+        background-image: url(image/reception.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+
+    #gallery2{
+        background-image: url(image/recep2.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+    #gallery3{
+        background-image: url(image/happy.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+    #gallery4{
+        background-image: url(image/room=5.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+    #gallery5{
+        background-image: url(image/masage.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+
+    #gallery6{
+        background-image: url(image/room4.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+    #gallery7{
+        background-image: url(image/bar1.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+    #gallery8{
+        background-image: url(image/wine6.avif);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+    #gallery9{
+        background-image: url(image/yoga.jpeg);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+    }
+    #gallery :hover {
+        transform: translateY(-10px);
+        width: 30%;
+        height: 200px;
+        display: inline-block;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        font-size: 30px;
+        transition: transform 0.5s;
+        border: 2px solid white;
+        
     }
 /*booking form*/
 #regform{
