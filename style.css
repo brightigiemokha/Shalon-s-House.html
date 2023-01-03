@@ -4,12 +4,15 @@
     padding: 0;
     font-family: Oswald, sans-serif;
 }
+body {
+    background-color: rgb(0, 0, 0);
+}
 
 .house{
     width: 100%;
     height: 100vh;
     color: gold;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     background-image: url(image/table.avif);
     background-position: center;
     background-size: cover;
@@ -46,6 +49,11 @@ nav ul li a{
     text-decoration: none;
     color: rgb(0, 0, 255);
     font-size: 23px;
+}
+.navbar :hover {
+    transform: translateY(-10px);
+    color: red;
+    
 }
 /*heading*/
 .row {
@@ -115,7 +123,7 @@ nav ul li a{
     .menuhouse{
     width: 100%;
     height: 100vh;
-    background-color: rgb(24, 1, 1);
+    background-color: rgb(0, 0, 0);
     padding-left: 2%;
     padding-right: 2%;
     box-sizing: border-box;
@@ -128,10 +136,10 @@ nav ul li a{
         margin-bottom: 40px;
         position:relative;
         display: inline-block;
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
-        background-size: cover;
-        border-top: 4px solid black;
+        color: rgb(140, 233, 150);
+        border-top: 4px solid rgb(253, 251, 251);
     
     }
     #menu h6{
@@ -143,7 +151,6 @@ nav ul li a{
     #breakf-pix1 {
         background: url(image/food.avif) no-repeat center center;
         background-size: cover;
-        border: 4px solid rgb(245, 245, 245);
         width: 22%;
         height: 450px;
         position:relative;
@@ -156,7 +163,6 @@ nav ul li a{
     #lunch-pix2 {
         background: url(image/food1.jpeg) no-repeat center center;
         background-size: cover;
-        border: 4px solid rgb(245, 245, 245);
         width: 22%;
         height: 450px;
         position: relative;
@@ -167,7 +173,6 @@ nav ul li a{
     #dinner-pix3 {
         background: url(image/food3.jpeg) no-repeat center center;
         background-size: cover;
-        border: 4px solid rgb(245, 245, 245);
         width: 22%;
         height: 450px;
         position: relative;
@@ -177,7 +182,6 @@ nav ul li a{
     #desert-pix4 {
         background: url(image/food5.jpeg) no-repeat center center;
         background-size: cover;
-        border: 4px solid rgb(245, 245, 245);
         width: 22%;
         height: 450px;
         position: relative;
@@ -190,15 +194,16 @@ nav ul li a{
     #roomvid {
         width: 100%;
         height: 450px;
-        border-top: 4px solid black;
-        color: rgb(248, 246, 246);
+        border-top: 4px solid white;
+        background-color: rgb(8, 0, 0);
     }
     #room {
         width: 50%;
         height: 450px;
         float: left;
         display: flex; 
-        background-color: aqua;
+        background-color: rgb(0, 0, 0);;
+        color: white;
     }
     #roomvids {
         width: 45%;
@@ -206,107 +211,9 @@ nav ul li a{
         float: right;
         position: relative;
         background-size: cover;
+        background-color: rgb(0, 0, 0);;
     }
-    #regform{
-        font-size: 30px;
-        text-justify: auto;
-        width: 80%;
-        color: rgb(255, 215, 0);
-        border-top: 4px solid black;
-        
-    }
-    #reghead {
-        text-align: center;
-        margin-bottom: 20px;
-        
-    }
-    #regform{
-        margin: 40px 40px 40px 40px;
-    
-    }
-    #regform h1 {
-        font-size: 40px;
-        text-align: center;
-        text-decoration-line: underline;
-        right: 40px;
-    }
-    input[type=text] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
-    
-      }
-      input[type=email] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
-    
-      }
-      input[type=address] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
-    
-      }
-      input[type=tel] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
-    
-      }
-      input[type=date] {
-        width: 50%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
-    
-      }
-      input[type=password] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
-    
-      }
-      input[select-name=stage] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
-    
-      }
-      .Reset {
-            color: rgb(213, 222, 225);
-            background-color: rgb(237, 48, 48);
-            font-size: 30px;
-            border: 4px solid rgb(255, 215, 0);
-            padding: 4px;        
-                }
-      .Submit {
-        color: rgb(213, 222, 225);
-        background-color: rgb(12, 157, 113);
-        font-size: 30px;
-        border: 4px solid rgb(255, 215, 0);
-        padding: 4px;
-             }
-        #stage {
-            width: 50%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        }
+    /*gym section*/
         #gympic {
             width: 49%;
             height: 500px;
@@ -316,7 +223,8 @@ nav ul li a{
             margin-bottom: 10px;
             position:relative;
             float: left;
-            border-top: 4px solid black;
+            border-top: 4px solid rgb(252, 250, 250);
+            background-color: rgb(0, 0, 0);;
         }
         #gym-pix1 {
             background: url(image/gym4.jpeg) no-repeat center center;
@@ -326,6 +234,7 @@ nav ul li a{
             position:relative;
             display: inline-flex;
             margin-right: 5px;
+            background-color: rgb(0, 0, 0);
         }
         #gym-pix2 {
             background: url(image/gym1.jpeg) no-repeat center center;
@@ -336,6 +245,7 @@ nav ul li a{
             display: inline-flex;
             margin-right: 10px;
             margin-right: 5px;
+            background-color: rgb(0, 0, 0);
         }
         #gymtext{
             width: 49%;
@@ -343,10 +253,140 @@ nav ul li a{
             float: right;
             font-size: 20px;
             position: relative;
-            border-top: 4px solid black;
+            border-top: 4px solid rgb(246, 242, 242);
+            background-color: rgb(0, 0, 0);
 
         }
-        
+    /*bar section*/
+    #barvid {
+        width: 98%;
+        height: 450px;
+        border-top: 4px solid white;
+        background-color: rgb(8, 0, 0);
+    }
+    #barvids {
+        width: 45%;
+        height: 450px;
+        float: right;
+        position: relative;
+        background-size: cover;
+        background-color: rgb(0, 0, 0);
+    }
+    #bartext{
+        width: 49%;
+        height: 500px;
+        float: left;
+        font-size: 20px;
+        position: relative;
+        border-top: 4px solid rgb(246, 242, 242);
+        background-color: rgb(0, 0, 0);
+        padding-bottom: 20px;
+
+    }
+/*booking form*/
+#regform{
+    font-size: 30px;
+    text-justify: auto;
+    width: 80%;
+    color: rgb(255, 215, 0);
+    border-top: 4px solid rgb(252, 250, 250);
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+    
+}
+#reghead {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    
+}
+#regform{
+    margin: 40px 40px 40px 40px;
+
+}
+#regform h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration-line: underline;
+    right: 40px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 215, 0);
+
+  }
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 215, 0);
+
+  }
+  input[type=address] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 215, 0);
+
+  }
+  input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 215, 0);
+
+  }
+  input[type=date] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 215, 0);
+
+  }
+  input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 215, 0);
+
+  }
+  input[select-name=stage] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 215, 0);
+
+  }
+  .Reset {
+        color: rgb(213, 222, 225);
+        background-color: rgb(237, 48, 48);
+        font-size: 30px;
+        border: 4px solid rgb(255, 215, 0);
+        padding: 4px;        
+            }
+  .Submit {
+    color: rgb(213, 222, 225);
+    background-color: rgb(12, 157, 113);
+    font-size: 30px;
+    border: 4px solid rgb(255, 215, 0);
+    padding: 4px;
+         }
+    #stage {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 4px solid rgb(255, 215, 0);
+    }
     /*footer*/
 
 .social-icon {
