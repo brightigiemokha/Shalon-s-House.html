@@ -26,10 +26,13 @@ body {
     height: 12%;
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 .logo {
     width: 20rem;
     cursor: pointer;
+    box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+    
 }
 .menu-icon {
     width: 30px;
@@ -101,7 +104,7 @@ nav ul li a{
         background-size: cover;
         font-size: 30px;
         transition: transform 0.5s;
-        
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     }
     .one{
         background-image: url(image/room3.jpeg);
@@ -277,6 +280,7 @@ nav ul li a{
         height: 500px;
         float: left;
         font-size: 20px;
+        color: blueviolet;
         position: relative;
         border-top: 4px solid rgb(246, 242, 242);
         background-color: rgb(0, 0, 0);
@@ -313,6 +317,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
 
     #gallery2{
@@ -329,6 +334,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
     #gallery3{
         background-image: url(image/happy.jpeg);
@@ -344,6 +350,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
     #gallery4{
         background-image: url(image/room=5.jpeg);
@@ -359,6 +366,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
     #gallery5{
         background-image: url(image/masage.jpeg);
@@ -374,6 +382,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
 
     #gallery6{
@@ -390,6 +399,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
     #gallery7{
         background-image: url(image/bar1.jpeg);
@@ -405,6 +415,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
     #gallery8{
         background-image: url(image/wine6.avif);
@@ -420,6 +431,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
     #gallery9{
         background-image: url(image/yoga.jpeg);
@@ -435,6 +447,7 @@ nav ul li a{
         font-size: 30px;
         transition: transform 0.5s;
         border: 2px solid white;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
     #gallery :hover {
         transform: translateY(-10px);
