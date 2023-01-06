@@ -76,7 +76,7 @@ nav ul li a{
         color: blueviolet;
         font-size: 20px;
         line-height: 15px;
-        text-align: justify;
+        text-align: center;
         text-justify: auto;
     
     }
@@ -128,6 +128,7 @@ nav ul li a{
         transform: translateY(-10px);
         
     }
+
     .menuhouse{
     width: 100%;
     height: 100vh;
@@ -600,7 +601,7 @@ footer > p {
 
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .house{
         width: 98%;
         height: 98vh;
@@ -663,31 +664,31 @@ footer > p {
         }
         h1{
             color: rgb(205, 31, 191);
-            font-size: 25px;
+            font-size: 20px;
         }
         p{
             color: blueviolet;
             font-size: 10px;
             line-height: 12px;
-            text-align: center;
+            text-align: left;
         
         }
         button {
             padding: 7px 0;
-            font-size: 20px;
+            font-size: 10px;
             width: 100px;
             color:blue;
             border: 0;
             border-radius: 30%;
             outline: none;
             margin-top: 10px;
-            margin-left: 10rem;
+            margin-left: 1rem;
     
         }
         /*for the picture menus*/
         .file{
-            width: 100px;
-            height: 130px;
+            width: 100%;
+            aspect-ratio: 1.1;
             display: inline-block;
             border-radius: 10px;
             padding: 15px 25px;
@@ -700,11 +701,16 @@ footer > p {
             transition: transform 0.5s;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        }
          
          
         .menuhouse{
             width: 98%;
-            height: 98vh;
+            height: 90vh;
             background-color: rgb(0, 0, 0);
             padding-left: 2%;
             padding-right: 2%;
@@ -713,7 +719,7 @@ footer > p {
             }
             #menu {
                 width: 100%;
-                height: 250px;
+                height: 200px;
                 margin-top: 40px;
                 margin-bottom: 20px;
                 position:relative;
@@ -734,7 +740,7 @@ footer > p {
                 background: url(image/food.avif) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 250px;
+                height: 200px;
                 position:relative;
                 display: inline-flex;
                 margin-right: 5px;
@@ -746,7 +752,7 @@ footer > p {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 250px;
+                height: 200px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 10px;
@@ -756,7 +762,7 @@ footer > p {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 250px;
+                height: 200px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 5px;
@@ -765,7 +771,7 @@ footer > p {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 250px;
+                height: 200px;
                 position: relative;
                 display: inline-flex;
             }
@@ -1306,12 +1312,113 @@ footer > p {
 
         footer > span {
             width: 100%;
-            height: fit-content;
+            height: 5px;
              color: rgb(58, 8, 238);
-            font-size: 10px;
+            font-size: 7px;
             display: flex;
-            align-items: flex-end;
+            flex-direction: flex-end;
         }
 
 
+}
+@media only screen and (max-width: 491px) {
+    #gallary{
+        width: 100%;
+        height: 400px;
+    }
+
+    #gallery1{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+
+    #gallery2{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    #gallery3{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    #gallery4{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    #gallery5{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+
+    #gallery6{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    #gallery7{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    #gallery8{
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+    }
+    #gallery9{
+        
+        width: 25%;
+        height: 100px;
+        display: inline-block;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 5px 10px;
+        font-size: 15px;
+
+    }
 }
