@@ -664,7 +664,7 @@ footer > p {
         }
         h1{
             color: rgb(205, 31, 191);
-            font-size: 20px;
+            font-size: 40px;
         }
         p{
             color: blueviolet;
@@ -691,16 +691,32 @@ footer > p {
             aspect-ratio: 1.1;
             display: inline-block;
             border-radius: 10px;
-            padding: 15px 25px;
+            padding: 5px 10px;
             box-sizing: border-box;
             cursor: pointer;
-            margin: 10px 15px;
+            margin: 5px 5px;
             background-position: center;
             background-size: cover;
             font-size: 15px;
             transition: transform 0.5s;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         }
+        .file1{
+            width:40%;
+            height: 100px;
+         }
+         .file2{
+            width:40%;
+            height: 100px;
+         }
+         .file3{
+            width:40%;
+            height: 100px;
+         }
+         .file4{
+            width:40%;
+            height: 100px;
+         }
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -1321,104 +1337,740 @@ footer > p {
 
 
 }
+
+
+
+
+
+
+
 @media only screen and (max-width: 491px) {
-    #gallary{
-        width: 100%;
-        height: 400px;
-    }
-
-    #gallery1{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
+    .house{
+        width: 98%;
+        height: 98vh;
+        color: gold;
+        background-color: rgb(0, 0, 0);
+        background-image: url(image/table.avif);
+        background-position: center;
+        background-size: cover;
+        padding-left: 2%;
+        padding-right: 2%;
         box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-
-    #gallery2{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-    #gallery3{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-    #gallery4{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-    #gallery5{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-
-    #gallery6{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-    #gallery7{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-    #gallery8{
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-    }
-    #gallery9{
         
-        width: 25%;
-        height: 100px;
-        display: inline-block;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 5px 10px;
-        font-size: 15px;
-
     }
+    /*navigation links heading and logo*/
+    .navbar {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+    }
+    .logo {
+        width: 10rem;
+        cursor: pointer;
+        background-color: rgb(184, 177, 177);
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+        
+    }
+    .menu-icon {
+        width: 20px;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+    nav {
+        flex: 1;
+        text-align: right;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 40px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 255);
+        font-size: 18px;
+    }
+    .navbar :hover {
+        transform: translateY(-10px);
+        color: red;
+        
+    }
+    /*heading*/
+    .row {
+        display: flex;
+        height: 88%;
+        align-items: center;
+        }
+        .col{
+            flex-basis: 50%;
+        }
+        h1{
+            color: rgb(205, 31, 191);
+            font-size: 20px;
+        }
+        p{
+            color: blueviolet;
+            font-size: 10px;
+            line-height: 12px;
+            text-align: left;
+        
+        }
+        button {
+            padding: 7px 0;
+            font-size: 10px;
+            width: 100px;
+            color:blue;
+            border: 0;
+            border-radius: 30%;
+            outline: none;
+            margin-top: 10px;
+            margin-left: 1rem;
+    
+        }
+        /*for the picture menus*/
+        .file{
+            width: 90%;
+            aspect-ratio: 1.1;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            cursor: pointer;
+            margin: 5px 10px;
+            background-position: center;
+            background-size: cover;
+            font-size: 15px;
+            transition: transform 0.5s;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+         .file1{
+            width:40%;
+            height: 100px;
+         }
+         .file2{
+            width:40%;
+            height: 100px;
+         }
+         .file3{
+            width:40%;
+            height: 100px;
+         }
+         .file4{
+            width:40%;
+            height: 100px;
+         }
+         
+        .menuhouse{
+            width: 98%;
+            height: 90vh;
+            background-color: rgb(0, 0, 0);
+            padding-left: 2%;
+            padding-right: 2%;
+            box-sizing: border-box;
+        
+            }
+            #menu {
+                width: 100%;
+                height: 200px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                position:relative;
+                display: inline-block;
+                font-size: 10px;
+                text-align: center;
+                color: rgb(205, 31, 191);;
+                border-top: 4px solid rgb(253, 251, 251);
+            
+            }
+            #menu h6{
+                font-size: 10px;
+                font: bold;
+                font-family: 'Courier New', Courier, monospace;
+                padding-bottom: 2px;
+            }
+            #breakf-pix1 {
+                background: url(image/food.avif) no-repeat center center;
+                background-size: cover;
+                width: 22%;
+                height: 200px;
+                position:relative;
+                display: inline-flex;
+                margin-right: 5px;
+                text-align: center;
+                
+                
+            }
+            #lunch-pix2 {
+                background: url(image/food1.jpeg) no-repeat center center;
+                background-size: cover;
+                width: 22%;
+                height: 200px;
+                position: relative;
+                display: inline-flex;
+                margin-right: 10px;
+                margin-right: 5px;
+            }
+            #dinner-pix3 {
+                background: url(image/food3.jpeg) no-repeat center center;
+                background-size: cover;
+                width: 22%;
+                height: 200px;
+                position: relative;
+                display: inline-flex;
+                margin-right: 5px;
+            }
+            #desert-pix4 {
+                background: url(image/food5.jpeg) no-repeat center center;
+                background-size: cover;
+                width: 22%;
+                height: 200px;
+                position: relative;
+                display: inline-flex;
+            }
+            #menu :hover {
+                transform: translateY(-10px);
+            }
+            /*rooms list*/
+            #roomvid {
+                width: 100%;
+                height: 450px;
+                border-top: 4px solid white;
+                background-color: rgb(8, 0, 0);
+            }
+            #room {
+                width: 50%;
+                height: 250px;
+                float: left;
+                display: flex; 
+                background-color: rgb(0, 0, 0);;
+                color: white;
+            }
+            #roomvids {
+                width: 45%;
+                height: 250px;
+                float: right;
+                position: relative;
+                background-size: cover;
+                background-color: rgb(0, 0, 0);;
+            }
+            /*gym section*/
+                #gympic {
+                    width: 49%;
+                    height: 500px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    position:relative;
+                    float: left;
+                    border-top: 4px solid rgb(252, 250, 250);
+                    background-color: rgb(0, 0, 0);;
+                }
+                #gym-pix1 {
+                    background: url(image/gym4.jpeg) no-repeat center center;
+                    background-size: cover;
+                    width: 24%;
+                    height: 250px;
+                    position:relative;
+                    display: inline-flex;
+                    margin-right: 5px;
+                    background-color: rgb(0, 0, 0);
+                }
+                #gym-pix2 {
+                    background: url(image/gym1.jpeg) no-repeat center center;
+                    background-size: cover;
+                    width: 24%;
+                    height: 250px;
+                    position: relative;
+                    display: inline-flex;
+                    margin-right: 10px;
+                    margin-right: 5px;
+                    background-color: rgb(0, 0, 0);
+                }
+                #gymtext{
+                    width: 49%;
+                    height: 250px;
+                    float: right;
+                    font-size: 20px;
+                    position: relative;
+                    border-top: 4px solid rgb(246, 242, 242);
+                    background-color: rgb(0, 0, 0);
+        
+                }
+            /*bar section*/
+            #barvid {
+                width: 98%;
+                height: 450px;
+                border-top: 4px solid white;
+                background-color: rgb(8, 0, 0);
+            }
+            #barvids {
+                width: 45%;
+                height: 250px;
+                float: right;
+                position: relative;
+                background-size: cover;
+                background-color: rgb(0, 0, 0);
+            }
+            #bartext{
+                width: 49%;
+                height: 250px;
+                float: left;
+                font-size: 20px;
+                color: blueviolet;
+                position: relative;
+                border-top: 4px solid rgb(246, 242, 242);
+                background-color: rgb(0, 0, 0);
+                padding-bottom: 20px;
+        
+            }
+            /*gallery section*/
+            #gallary{
+                width: 100%;
+                height: 900px;
+                display: flex;
+                flex-direction: row-reverse;
+            }
+        
+            #gallery1{
+                background-image: url(image/reception.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+        
+            #gallery2{
+                background-image: url(image/recep2.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery3{
+                background-image: url(image/happy.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery4{
+                background-image: url(image/room=5.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery5{
+                background-image: url(image/masage.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+        
+            #gallery6{
+                background-image: url(image/room4.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery7{
+                background-image: url(image/bar1.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery8{
+                background-image: url(image/wine6.avif);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery9{
+                background-image: url(image/yoga.jpeg);
+                width: 30%;
+                height: 200px;
+                display: inline-block;
+                padding: 15px 25px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 10px 15px;
+                background-position: center;
+                background-size: cover;
+                font-size: 30px;
+                transition: transform 0.5s;
+                border: 2px solid white;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #menu {
+                width: 100%;
+                height: 250px;
+                margin-top: 80px;
+                margin-bottom: 40px;
+                position:relative;
+                display: inline-block;
+                font-size: 10px;
+                text-align: center;
+                color: rgb(205, 31, 191);;
+                border-top: 4px solid rgb(253, 251, 251);
+            
+            }
+            #menu h6{
+                font-size: 10px;
+            }
+            #breakf-pix1 {
+                width: 22%;
+                height: 250px;
+
+            }
+            #lunch-pix2 {
+                width: 22%;
+                height: 250px;
+            }
+            #dinner-pix3 {
+                width: 22%;
+                height: 250px;
+            }
+            #desert-pix4 {
+
+                width: 22%;
+                height: 250px;
+                
+            }
+            
+        /*booking form*/
+        #regform{
+            font-size: 30px;
+            text-justify: auto;
+            width: 80%;
+            color: rgb(255, 215, 0);
+            border-top: 4px solid rgb(252, 250, 250);
+            background-color: rgb(0, 0, 0);
+            margin-top: 20px;
+            
+        }
+        #reghead {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: rgb(0, 0, 0);
+            
+        }
+        #regform{
+            margin: 40px 40px 40px 40px;
+        
+        }
+        #regform h1 {
+            font-size: 40px;
+            text-align: center;
+            text-decoration-line: underline;
+            right: 40px;
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(255, 215, 0);
+        
+          }
+          input[type=email] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(255, 215, 0);
+        
+          }
+          input[type=address] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(255, 215, 0);
+        
+          }
+          input[type=tel] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(255, 215, 0);
+        
+          }
+          input[type=date] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(255, 215, 0);
+        
+          }
+          input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(255, 215, 0);
+        
+          }
+          input[select-name=stage] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(255, 215, 0);
+        
+          }
+          .Reset {
+                color: rgb(213, 222, 225);
+                background-color: rgb(237, 48, 48);
+                font-size: 30px;
+                border: 4px solid rgb(255, 215, 0);
+                padding: 4px;        
+                    }
+          .Submit {
+            color: rgb(213, 222, 225);
+            background-color: rgb(12, 157, 113);
+            font-size: 30px;
+            border: 4px solid rgb(255, 215, 0);
+            padding: 4px;
+                 }
+            #stage {
+                width: 50%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 4px solid rgb(255, 215, 0);
+            }
+            #room h3{
+                font-size: 10px;
+                text-align: left;
+                margin: 10px 10px;
+                color: blueviolet;
+            }
+            #room li {
+                font-size: 5px;
+                text-align: center;
+
+            }
+            #barvid {
+                width: 98%;
+                height: 250px;
+                border-top: 4px solid white;
+                background-color: rgb(8, 0, 0);
+            }
+            #barvids {
+                width: 45%;
+                height: 250px;
+                float: right;
+                position: relative;
+                background-size: cover;
+                background-color: rgb(0, 0, 0);
+            }
+            #gallary{
+                width: 100%;
+                height: 600px;
+            }
+        
+            #gallery1{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+        
+            #gallery2{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+            #gallery3{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+            #gallery4{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+            #gallery5{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+        
+            #gallery6{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+            #gallery7{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+            #gallery8{
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+            }
+            #gallery9{
+                
+                width: 25%;
+                height: 150px;
+                display: inline-block;
+                padding: 10px 20px;
+                box-sizing: border-box;
+                cursor: pointer;
+                margin: 5px 10px;
+                font-size: 15px;
+
+            }
+         /*footer*/
+
+         .social-icon {
+            width: 100%;
+            height: 4rem;
+             text-align: center;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            border-top: 4px solid black;
+        }
+
+        footer > a {
+            color: rgb(58, 8, 238);
+            text-decoration: none;
+            padding: 0 20px;
+            font-size: 1.50rem;
+            margin-left: 3px;
+        }
+
+        footer > span {
+            width: 100%;
+            height: 5px;
+             color: rgb(58, 8, 238);
+            font-size: 7px;
+            display: flex;
+            flex-direction: flex-end;
+        }
+
+
 }
