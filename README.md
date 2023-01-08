@@ -21,12 +21,11 @@ At the top of the page is the navigation bar, which shows the website logo, Shal
 The home section introduce the reader to the hotel and what features they have. its a beautiful front page with 4 pictures to make it very clear what section is talking about. e.g the bar, gym, food and the rooms 
 
 <br>
-<h2>The Timeline</h2>
+<h2>The menu</h2>
 
 <img src="./assets/images/readme/timeline.png">
 
-The timeline covers some highlights of historical events at the Tower, from its construction in the 11th century, all the way up to the 1950's. Most have an external link to Wikipedia
-or other websites, since the scope of information on the Tower's history is too large for my site to cover. But it provides more information should the reader wish to have some in-depth knowledge.
+the menu nav lead to a page with what to expect in terms of food, the breakfast Lunch and Dinner this also include deserts
 
 <br>
 
@@ -34,17 +33,15 @@ or other websites, since the scope of information on the Tower's history is too 
 
 <img src="./assets/images/readme/pics.jpeg">
 
-The gallery shows some images taken by myself in the Tower of London. These are designed to compliment the information in the timeline, and add some decoration to the site. I made sure the links were accessible by providing an aria label for each one - including the hero image.
+the Gallery section show some images of what beauty Shalons House is. it cover from the receptions to the rooms, bar gym and food. making a clearer expectation
 
 <br>
 
-<h2>The Mailing List Form</h2>
+<h2>Bar</h2>
 
 <img src="./assets/images/readme/form.png">
 
-The Mailing List form encourages users to sign up to a newsletter. It has input sections for first name, last name and email address. Each of these is required and a pop up appears if the user
- tries to submit the form without one of these inputs. I gave the form the same background colour as the About section, to break up the page and keep the colours consistent.
-
+the Bar section express our desires to fulfill guest desires with different variaty of drives and great service bar attendant.
  <br>
 
  <h1>Testing</h1>
