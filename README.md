@@ -1,108 +1,124 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1>SHALON'S HOUSE</h1>
 
-Welcome brightigiemokha,
+ <img src="./assets/images/readme/responsive.png">
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Shalon's House is a dream soon ti be fulfilled. a dream of one of the best hotel united kindgom will soon see come true. an hotel with all beautiful features for a perfect relaxation spot. A perfect home away from home.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h1>Features</h1>
 
-## Gitpod Reminders
+<h2>Navigation</h2>
+At the top of the page is the navigation bar, which shows the website logo, Shalon's house. To the right are four navigation links: Home, Menu, Room, Bar, Gym and Booking, which link
+<p>to different sections of the main page.
+<p>The navigation is in a simple Oswald for easy viewing, and it's also a perfect administrative fonts for professional writings.
+<p>The navigation is simple to use and makes it clear what they are about.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<br>
+<h2>The Home Section</h2>
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+<img src="./assets/images/readme/about.png">
 
-Another blue button should appear to click: _Open Browser_.
+The home section introduce the reader to the hotel and what features they have. its a beautiful front page with 4 pictures to make it very clear what section is talking about. e.g the bar, gym, food and the rooms 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+<br>
+<h2>The Timeline</h2>
 
-A blue button should appear to click: _Make Public_,
+<img src="./assets/images/readme/timeline.png">
 
-Another blue button should appear to click: _Open Browser_.
+The timeline covers some highlights of historical events at the Tower, from its construction in the 11th century, all the way up to the 1950's. Most have an external link to Wikipedia
+or other websites, since the scope of information on the Tower's history is too large for my site to cover. But it provides more information should the reader wish to have some in-depth knowledge.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br>
 
-To log into the Heroku toolbelt CLI:
+<h2>The Gallery</h2>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<img src="./assets/images/readme/pics.jpeg">
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The gallery shows some images taken by myself in the Tower of London. These are designed to compliment the information in the timeline, and add some decoration to the site. I made sure the links were accessible by providing an aria label for each one - including the hero image.
 
-------
+<br>
 
-## Release History
+<h2>The Mailing List Form</h2>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<img src="./assets/images/readme/form.png">
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The Mailing List form encourages users to sign up to a newsletter. It has input sections for first name, last name and email address. Each of these is required and a pop up appears if the user
+ tries to submit the form without one of these inputs. I gave the form the same background colour as the About section, to break up the page and keep the colours consistent.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ <br>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ <h1>Testing</h1>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ I used devtools device toolbar to confirm it is responsive on different screen sizes, and also used Responsive Design Checker.com to see how it looked on smaller devices.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+ <p>I tested each of the links in the nav bar to make sure they linked to the correct sections.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ <p>I checked each external link linked to the correct page and that no links were broken.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ <p>I confirmed that the form works, that only first name will go in the first name box, last name in the last name box, and email address in the email box. 
+ I confirmed pressing 'Submit' results in a pop up to confirm these fields need filling in, and it won't let you submit without them.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<br>
+ <h2>Bugs</h2>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+No known bugs have been found.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<br>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+<h2>Validator Testing</h2>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<strong>HTML</strong> - Unfortunately, the <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoannalsk.github.io%2FThe-Tower-of-London%2F">W3C Validator</a> detected 24 errors and 14 warnings. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<p>
+I tried to correct some of these errors, but it resulted in my site losing its structure. Given the lack of time before the deadline, 
+I felt it best not to make these changes, as it may have resulted in me unable to correct them and handing in a site with everything out of place. Other issues brought up included the forward-slash-a tags, which were marked as stray end tags. I will try to fix these errors for resubmission.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<br>
+<strong>CSS</strong> - No errors were found when it was checked with the W3C Validator.
 
-------
+<img src="./assets/images/readme/w3c.png">
 
-## FAQ about the uptime script
+<br>
+<strong>Accessibility</strong>
 
-**Why have you added this script?**
+I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+<img src="./assets/images/readme/desktop.png">
+<p><p></p>Desktop stats
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+<<img src="./assets/images/readme/mobile.png">
+</p>Mobile stats
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+<p>
+<h1>Deployment</h1>
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The site was deployed to Github pages. To get to the page, go to the Github repositry, and head for the Settings tab. Click 'Pages' on the left-hand column, and 
+it will take you to the live website address. 
+<p>The live link can be found here -  <a href="https://joannalsk.github.io/The-Tower-of-London/">The Tower of London.</a>
 
-**So….?**
+<br>
+<h1>Credits</h1>
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The hero image was taken from  <a href="https://upload.wikimedia.org/wikipedia/commons/5/5d/Tower_of_London_-_01.jpg ">Wikipedia</a>
+All other images were taken by me.
 
-**Can I opt out?**
+Thanks to Harry Dhillon and Chris Quinn for stepping in for mentor sessions at the start. Thanks to my mentor, Rahul Lakhanpal for helping me create a good looking site and 
+picking up on where I needed to go. Thanks to the Slack community for answering lots of questions.</p>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+ Responsive Design Checker.com for testing the responsive design on different screen sizes. 
+ 
+ <p>w3schools.com for help with the gallery CSS. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+ <p>Information on the Tower was taken from <a href="https://en.wikipedia.org/wiki/Tower_of_London">Wikipedia.</a> and my own knowledge.
+ 
+ <p>Further info on the Princes in the Tower taken from <a href="https://www.theguardian.com/science/2013/feb/05/princes-in-tower-staying-under"> The Guardian </a>
 
-**Anything more?**
+<p>I used the Love Running signup form challenge for the basis of my Mailing List form.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
 
-Happy coding!
+
+
+
+
