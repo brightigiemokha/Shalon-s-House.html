@@ -1366,7 +1366,7 @@ footer > p {
         padding-top: 8px;
     }
     .logo {
-        width: 10rem;
+        width: 8rem;
         cursor: pointer;
         background-color: rgb(184, 177, 177);
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -1407,7 +1407,17 @@ footer > p {
         }
         h1{
             color: rgb(205, 31, 191);
-            font-size: 20px;
+            font-size: 15px;
+        }
+        .col h1 {
+            color: rgb(205, 31, 191);
+            font-size: 30px;   
+        }
+        .col p {
+            color: blueviolet;
+            font-size: 13px;
+            line-height: 12px;
+            text-align: left;
         }
         p{
             color: blueviolet;
@@ -1418,14 +1428,14 @@ footer > p {
         }
         button {
             padding: 7px 0;
-            font-size: 10px;
+            font-size: 7px;
             width: 100px;
             color:blue;
             border: 0;
             border-radius: 30%;
             outline: none;
-            margin-top: 10px;
-            margin-left: 1rem;
+            margin-top: 5px;
+            margin-left: 0.50rem;
     
         }
         /*for the picture menus*/
@@ -1472,19 +1482,19 @@ footer > p {
             }
             #menu {
                 width: 100%;
-                height: 200px;
+                height: 150px;
                 margin-top: 40px;
                 margin-bottom: 20px;
                 position:relative;
                 display: inline-block;
                 font-size: 10px;
                 text-align: center;
-                color: rgb(205, 31, 191);;
+                color: rgb(205, 31, 191);
                 border-top: 4px solid rgb(253, 251, 251);
             
             }
             #menu h6{
-                font-size: 10px;
+                font-size: 8px;
                 font: bold;
                 font-family: 'Courier New', Courier, monospace;
                 padding-bottom: 2px;
@@ -1493,7 +1503,7 @@ footer > p {
                 background: url(image/food.avif) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 100px;
                 position:relative;
                 display: inline-flex;
                 margin-right: 5px;
@@ -1505,7 +1515,7 @@ footer > p {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 100px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 10px;
@@ -1515,7 +1525,7 @@ footer > p {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 100px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 5px;
@@ -1524,7 +1534,7 @@ footer > p {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 100px;
                 position: relative;
                 display: inline-flex;
             }
@@ -1534,13 +1544,13 @@ footer > p {
             /*rooms list*/
             #roomvid {
                 width: 100%;
-                height: 450px;
+                height: 200px;
                 border-top: 4px solid white;
                 background-color: rgb(8, 0, 0);
             }
             #room {
                 width: 50%;
-                height: 250px;
+                height: 200px;
                 float: left;
                 display: flex; 
                 background-color: rgb(0, 0, 0);;
@@ -1548,10 +1558,11 @@ footer > p {
             }
             #roomvids {
                 width: 45%;
-                height: 250px;
+                height: 200px;
                 float: right;
                 position: relative;
                 background-size: cover;
+                align-items: center;
                 background-color: rgb(0, 0, 0);;
             }
             /*gym section*/
@@ -1570,8 +1581,8 @@ footer > p {
                 #gym-pix1 {
                     background: url(image/gym4.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 24%;
-                    height: 250px;
+                    width: 22%;
+                    height: 150px;
                     position:relative;
                     display: inline-flex;
                     margin-right: 5px;
@@ -1580,8 +1591,8 @@ footer > p {
                 #gym-pix2 {
                     background: url(image/gym1.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 24%;
-                    height: 250px;
+                    width: 22%;
+                    height: 150px;
                     position: relative;
                     display: inline-flex;
                     margin-right: 10px;
@@ -1590,7 +1601,7 @@ footer > p {
                 }
                 #gymtext{
                     width: 49%;
-                    height: 250px;
+                    height: 150px;
                     float: right;
                     font-size: 20px;
                     position: relative;
@@ -1606,8 +1617,8 @@ footer > p {
                 background-color: rgb(8, 0, 0);
             }
             #barvids {
-                width: 45%;
-                height: 250px;
+                width: 47%;
+                height: 400px;
                 float: right;
                 position: relative;
                 background-size: cover;
