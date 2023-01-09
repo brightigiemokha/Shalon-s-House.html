@@ -745,14 +745,14 @@ input[type=text] {
                 margin-bottom: 20px;
                 position:relative;
                 display: inline-block;
-                font-size: 10px;
+                font-size: 20px;
                 text-align: center;
                 color: rgb(205, 31, 191);;
                 border-top: 4px solid rgb(253, 251, 251);
             
             }
             #menu h6{
-                font-size: 10px;
+                font-size: 20px;
                 font: bold;
                 font-family: 'Courier New', Courier, monospace;
                 padding-bottom: 2px;
