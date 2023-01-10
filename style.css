@@ -6,6 +6,8 @@
 }
 body {
     background-color: rgb(0, 0, 0);
+    text-align: justify;
+    
 }
 
 .house{
@@ -667,17 +669,27 @@ input[type=text] {
         .col{
             flex-basis: 50%;
         }
-        h1{
-            color: rgb(205, 31, 191);
-            font-size: 80px;
+        .col h1{
+            font-size: 60px;
         }
-        p{
+        .col p{
             color: blueviolet;
             font-size: 20px;
             line-height: 12px;
             text-align: left;
+        }
+        h1{
+            color: rgb(205, 31, 191);
+            font-size: 40px;
+        }
+        p{
+            color: blueviolet;
+            font-size: 17px;
+            line-height: normal;
+            text-align: left;
         
         }
+        
         button {
             padding: 7px 0;
             font-size: 20px;
@@ -751,21 +763,17 @@ input[type=text] {
                 border-top: 4px solid rgb(253, 251, 251);
             
             }
-            #menu h6{
-                font-size: 20px;
-                font: bold;
-                font-family: 'Courier New', Courier, monospace;
-                padding-bottom: 2px;
-            }
+
             #breakf-pix1 {
                 background: url(image/food.avif) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 250px;
                 position:relative;
                 display: inline-flex;
                 margin-right: 5px;
                 text-align: center;
+                font-size: 20px;
                 
                 
             }
@@ -773,28 +781,31 @@ input[type=text] {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 250px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 10px;
                 margin-right: 5px;
+                font-size: 20px;
             }
             #dinner-pix3 {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 250px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 5px;
+                font-size: 20px;
             }
             #desert-pix4 {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
                 width: 22%;
-                height: 200px;
+                height: 250px;
                 position: relative;
                 display: inline-flex;
+                font-size: 20px;
             }
             #menu :hover {
                 transform: translateY(-10px);
@@ -802,9 +813,17 @@ input[type=text] {
             /*rooms list*/
             #roomvid {
                 width: 100%;
-                height: 450px;
+                height: 250px;
                 border-top: 4px solid white;
                 background-color: rgb(8, 0, 0);
+                
+            }
+            #room li {
+                font-size: 20px;
+                text-align: center;
+            }
+            #room h3{
+                font-size: 20px;
             }
             #room {
                 width: 50%;
@@ -813,6 +832,7 @@ input[type=text] {
                 display: flex; 
                 background-color: rgb(0, 0, 0);;
                 color: white;
+                
             }
             #roomvids {
                 width: 45%;
@@ -899,6 +919,8 @@ input[type=text] {
                 height: 900px;
                 display: flex;
                 flex-direction: row-reverse;
+                align-items: center;
+                padding-left: 20px;
             }
         
             #gallery1{
@@ -1061,32 +1083,15 @@ input[type=text] {
             
             }
             #menu h6{
-                font-size: 10px;
+                font-size: 15px;
             }
-            #breakf-pix1 {
-                width: 22%;
-                height: 250px;
-
-            }
-            #lunch-pix2 {
-                width: 22%;
-                height: 250px;
-            }
-            #dinner-pix3 {
-                width: 22%;
-                height: 250px;
-            }
-            #desert-pix4 {
-
-                width: 22%;
-                height: 250px;
-                
-            }
+            
             
         /*booking form*/
         #regform{
             font-size: 30px;
             text-justify: auto;
+            padding-left: 30px;
             width: 80%;
             color: rgb(255, 215, 0);
             border-top: 4px solid rgb(252, 250, 250);
@@ -1215,129 +1220,141 @@ input[type=text] {
             #gallary{
                 width: 100%;
                 height: 600px;
+                
             }
         
             #gallery1{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
             }
         
             #gallery2{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
+
             }
             #gallery3{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
             }
             #gallery4{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
             }
             #gallery5{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
+                
             }
         
             #gallery6{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
             }
             #gallery7{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
             }
             #gallery8{
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
             }
             #gallery9{
                 
-                width: 25%;
-                height: 150px;
+                width: 35%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
                 cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
+                margin-left: 60px;
 
             }
          /*footer*/
 
          .social-icon {
             width: 100%;
-            height: 4rem;
-             text-align: center;
+            height: 8rem;
+            text-align: center;
             background-color: white;
-            display: flex;
-            align-items: center;
+            float: left;
             border-top: 4px solid black;
         }
-
-        footer > a {
+        .social-bottom{
+            display: flex;
+            justify-content:center;
+        }
+        .social > a {
             color: rgb(58, 8, 238);
             text-decoration: none;
             padding: 0 20px;
-            font-size: 1.50rem;
-            margin-left: 3px;
+            font-size: 3rem;
+            text-align: center;
+            margin-left: 6rem;
         }
-
-        footer > span {
-            width: 100%;
-            height: 5px;
-             color: rgb(58, 8, 238);
-            font-size: 7px;
-            display: flex;
-            flex-direction: flex-end;
+        
+        .social-bottom > p {
+            color: rgb(58, 8, 238);
+            font-size: 15px;
+            text-align: right;
         }
 
 
