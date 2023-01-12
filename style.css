@@ -190,7 +190,6 @@ nav ul li a{
         height: 450px;
         position: relative;
         display: inline-flex;
-        margin-right: 10px;
         margin-right: 5px;
     }
     #dinner-pix3 {
@@ -316,6 +315,7 @@ nav ul li a{
     #gallary{
         width: 100%;
         height: 900px;
+        padding-top: 20px;
     }
 
     #gallery1{
@@ -657,7 +657,7 @@ input[type=text] {
     nav ul li{
         list-style: none;
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 10px;
     }
     nav ul li a{
         text-decoration: none;
@@ -689,7 +689,7 @@ input[type=text] {
         }
         h1{
             color: rgb(205, 31, 191);
-            font-size: 40px;
+            font-size: 20px;
         }
         p{
             color: blueviolet;
@@ -766,9 +766,12 @@ input[type=text] {
                 margin-bottom: 20px;
                 position:relative;
                 display: inline-block;
-                font-size: 20px;
                 text-align: center;
-                color: rgb(205, 31, 191);;
+                color: rgb(205, 31, 191);
+                text-shadow: -1px 1px 0 #000,
+                1px 1px 0 #000,
+               1px -1px 0 #000,
+              -1px -1px 0 #000;
                 border-top: 4px solid rgb(253, 251, 251);
             
             }
@@ -776,45 +779,45 @@ input[type=text] {
             #breakf-pix1 {
                 background: url(image/food.avif) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 23%;
                 height: 250px;
                 position:relative;
                 display: inline-flex;
                 margin-right: 5px;
                 text-align: center;
-                font-size: 20px;
+                font-size: 10px;
                 
                 
             }
             #lunch-pix2 {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 23%;
                 height: 250px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 10px;
                 margin-right: 5px;
-                font-size: 20px;
+                font-size: 10px;
             }
             #dinner-pix3 {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 23%;
                 height: 250px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 5px;
-                font-size: 20px;
+                font-size: 10px;
             }
             #desert-pix4 {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 23%;
                 height: 250px;
                 position: relative;
                 display: inline-flex;
-                font-size: 20px;
+                font-size: 10px;
             }
             #menu :hover {
                 transform: translateY(-10px);
@@ -827,22 +830,18 @@ input[type=text] {
                 background-color: rgb(8, 0, 0);
                 
             }
-            #room li {
-                font-size: 20px;
-                text-align: center;
-            }
-            #room h3{
-                font-size: 20px;
-            }
+
             #room {
                 width: 50%;
                 height: 250px;
                 float: left;
                 display: flex; 
                 background-color: rgb(0, 0, 0);;
-                color: white;
+                color: rgb(255, 255, 255);
+                font-size: 15px;
                 
             }
+
             #roomvids {
                 width: 45%;
                 height: 250px;
@@ -867,7 +866,7 @@ input[type=text] {
                 #gym-pix1 {
                     background: url(image/gym4.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 24%;
+                    width: 25%;
                     height: 250px;
                     position:relative;
                     display: inline-flex;
@@ -877,7 +876,7 @@ input[type=text] {
                 #gym-pix2 {
                     background: url(image/gym1.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 24%;
+                    width: 25%;
                     height: 250px;
                     position: relative;
                     display: inline-flex;
@@ -2081,31 +2080,30 @@ input[type=text] {
 
          .social-icon {
             width: 100%;
-            height: 4rem;
-             text-align: center;
+            height: 8rem;
+            text-align: center;
             background-color: white;
-            display: flex;
-            align-items: center;
+            float: left;
             border-top: 4px solid black;
         }
-
-        footer > a {
+        .social-bottom{
+            display: flex;
+            justify-content:center;
+        }
+        .social > a {
             color: rgb(58, 8, 238);
             text-decoration: none;
             padding: 0 20px;
-            font-size: 1.50rem;
-            margin-left: 3px;
+            font-size: 3rem;
+            text-align: center;
+            margin-left: 6rem;
         }
-
-        footer > span {
-            width: 100%;
-            height: 5px;
-             color: rgb(58, 8, 238);
-            font-size: 7px;
-            display: flex;
-            flex-direction: flex-end;
+        
+        .social-bottom > p {
+            color: rgb(58, 8, 238);
+            font-size: 15px;
+            text-align: right;
         }
-
 
 }
 
@@ -2155,12 +2153,12 @@ input[type=text] {
     nav ul li{
         list-style: none;
         display: inline-block;
-        margin-left: 40px;
+        margin-left: 10px;
     }
     nav ul li a{
         text-decoration: none;
         color: rgb(0, 0, 255);
-        font-size: 14px;
+        font-size: 10px;
     }
     .navbar :hover {
         transform: translateY(-10px);
@@ -2178,7 +2176,7 @@ input[type=text] {
         }
         h1{
             color: rgb(205, 31, 191);
-            font-size: 15px;
+            font-size: 20px;
         }
         .col h1 {
             color: rgb(205, 31, 191);
@@ -2258,7 +2256,7 @@ input[type=text] {
                 margin-bottom: 20px;
                 position:relative;
                 display: inline-block;
-                font-size: 10px;
+                font-size: 20px;
                 text-align: center;
                 color: rgb(205, 31, 191);
                 border-top: 4px solid rgb(253, 251, 251);
@@ -2273,39 +2271,37 @@ input[type=text] {
             #breakf-pix1 {
                 background: url(image/food.avif) no-repeat center center;
                 background-size: cover;
-                width: 22%;
-                height: 100px;
+                width: 24%;
+                height: 90px;
                 position:relative;
                 display: inline-flex;
-                margin-right: 5px;
-                text-align: center;
-                
-                
+                margin-right: 2px;
+                text-align: center;     
             }
             #lunch-pix2 {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
-                height: 100px;
+                width: 24%;
+                height: 90px;
                 position: relative;
                 display: inline-flex;
                 margin-right: 10px;
-                margin-right: 5px;
+                margin-right: 2px;
             }
             #dinner-pix3 {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
-                height: 100px;
+                width: 24%;
+                height: 90px;
                 position: relative;
                 display: inline-flex;
-                margin-right: 5px;
+                margin-right: 2px;
             }
             #desert-pix4 {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
-                height: 100px;
+                width: 24%;
+                height: 90px;
                 position: relative;
                 display: inline-flex;
             }
@@ -2320,15 +2316,15 @@ input[type=text] {
                 background-color: rgb(8, 0, 0);
             }
             #room {
-                width: 50%;
-                height: 200px;
+                width: 45%;
+                height: 150px;
                 float: left;
                 display: flex; 
                 background-color: rgb(0, 0, 0);;
                 color: white;
             }
             #roomvids {
-                width: 45%;
+                width: 54%;
                 height: 200px;
                 float: right;
                 position: relative;
@@ -2337,9 +2333,15 @@ input[type=text] {
                 background-color: rgb(0, 0, 0);;
             }
             /*gym section*/
+            #roompic {
+                height: 350;
+                padding-top: 10px;
+                border-top: 4px solid white;
+                width: 100%;
+            }
                 #gympic {
                     width: 49%;
-                    height: 500px;
+                    height: 0px;
                     padding-left: 5px;
                     padding-right: 5px;
                     margin-top: 10px;
@@ -2352,7 +2354,7 @@ input[type=text] {
                 #gym-pix1 {
                     background: url(image/gym4.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 22%;
+                    width: 23%;
                     height: 150px;
                     position:relative;
                     display: inline-flex;
@@ -2362,7 +2364,7 @@ input[type=text] {
                 #gym-pix2 {
                     background: url(image/gym1.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 22%;
+                    width: 23%;
                     height: 150px;
                     position: relative;
                     display: inline-flex;
@@ -2565,11 +2567,11 @@ input[type=text] {
                 width: 100%;
                 height: 250px;
                 margin-top: 80px;
-                margin-bottom: 40px;
+                margin-bottom: 20px;
                 position:relative;
                 display: inline-block;
                 font-size: 10px;
-                text-align: center;
+                text-align: left;
                 color: rgb(205, 31, 191);;
                 border-top: 4px solid rgb(253, 251, 251);
             
@@ -2578,35 +2580,35 @@ input[type=text] {
                 font-size: 10px;
             }
             #breakf-pix1 {
-                width: 22%;
-                height: 250px;
+                width: 23%;
+                height: 200px;
 
             }
             #lunch-pix2 {
-                width: 22%;
-                height: 250px;
+                width: 23%;
+                height: 200px;
             }
             #dinner-pix3 {
-                width: 22%;
-                height: 250px;
+                width: 23%;
+                height: 200px;
             }
             #desert-pix4 {
 
-                width: 22%;
-                height: 250px;
+                width: 23%;
+                height: 200px;
                 
             }
             
         /*booking form*/
         #regform{
-            font-size: 30px;
+            font-size: 20px;
             text-justify: auto;
             width: 80%;
             color: rgb(255, 215, 0);
             border-top: 4px solid rgb(252, 250, 250);
             background-color: rgb(0, 0, 0);
             margin-top: 20px;
-            
+            padding-left: 10px;
         }
         #reghead {
             text-align: center;
@@ -2708,19 +2710,19 @@ input[type=text] {
                 color: blueviolet;
             }
             #room li {
-                font-size: 5px;
+                font-size: 6px;
                 text-align: center;
 
             }
             #barvid {
                 width: 100%;
-                height: 200px;
+                height: 300px;
                 border-top: 4px solid white;
                 background-color: rgb(8, 0, 0);
             }
             #barvids {
                 width: 45%;
-                height: 200px;
+                height: 300px;
                 float: right;
                 position: relative;
                 background-size: cover;
@@ -2730,12 +2732,13 @@ input[type=text] {
                 width: 100%;
                 height: 500px;
                 display: flex;
+                align-items: center;
                 flex-direction: row;
             }
         
             #gallery1{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2745,8 +2748,8 @@ input[type=text] {
             }
         
             #gallery2{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2755,8 +2758,8 @@ input[type=text] {
                 font-size: 15px;
             }
             #gallery3{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2765,8 +2768,8 @@ input[type=text] {
                 font-size: 15px;
             }
             #gallery4{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2775,8 +2778,8 @@ input[type=text] {
                 font-size: 15px;
             }
             #gallery5{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2786,8 +2789,8 @@ input[type=text] {
             }
         
             #gallery6{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2796,8 +2799,8 @@ input[type=text] {
                 font-size: 15px;
             }
             #gallery7{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2806,8 +2809,8 @@ input[type=text] {
                 font-size: 15px;
             }
             #gallery8{
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2817,8 +2820,8 @@ input[type=text] {
             }
             #gallery9{
                 
-                width: 25%;
-                height: 150px;
+                width: 90%;
+                height: 250px;
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
@@ -2833,32 +2836,30 @@ input[type=text] {
 
          /*footer*/
 
-         .social-icon {
-            width: 100%;
-            height: 4rem;
-             text-align: center;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            border-top: 4px solid black;
-        }
-
-        footer > a {
-            color: rgb(58, 8, 238);
-            text-decoration: none;
-            padding: 0 20px;
-            font-size: 1.50rem;
-            margin-left: 3px;
-        }
-
-        footer > span {
-            width: 100%;
-            height: 5px;
-             color: rgb(58, 8, 238);
-            font-size: 7px;
-            display: flex;
-            flex-direction: flex-end;
-        }
+            .social-icon{
+                width: 100%;
+                height: 6rem;
+                background-color: white;
+                float: left;
+            }
+            .social-bottom{
+                display: flex;
+                justify-content:center;
+            }
+            .social > a {
+                color: rgb(58, 8, 238);
+                text-decoration: none;
+                padding: 0 15px;
+                font-size: 3rem;
+                margin-left: 1rem;
+                margin: none;
+            }
+            
+            .social-bottom > p {
+                color: rgb(58, 8, 238);
+                font-size: 10px;
+                text-align: right;
+            }
 
 
 }
