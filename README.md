@@ -1,13 +1,14 @@
 <h1>SHALON'S HOUSE</h1>
 
- <img src="./assets/images/readme/responsive.png">
+ <img src="image/appearance.png">
 
 Shalon's House is a dream soon ti be fulfilled. a dream of one of the best hotel united kindgom will soon see come true. an hotel with all beautiful features for a perfect relaxation spot. A perfect home away from home.
 
 <h1>Features</h1>
 
 <h2>Navigation</h2>
-<img src="./assets/images/readme/about.png">
+<img src="image/navigation.png">
+<img src="image/navlink.png>
 
 <p>At the top of the page is the navigation bar, which shows the website logo, Shalon's house. To the right are of the index page i have plave just 2 links there, Home and Menu and on the second (menu page) i have five navigation links: Home, Menu, booking-in, contact, gallery which link
 to different sections of the main page.</p>
@@ -18,14 +19,14 @@ to different sections of the main page.</p>
 <h2>The Home Section</h2>
 
 
-<img src="./assets/images/readme/about.png">
+<img src="image/shalonesh.png">
 
 <p>The home section introduce the reader to the hotel and what features they have. its a beautiful front page with 4 pictures to make it very clear what section it's talking about. e.g the bar, gym, food and the rooms </p>
 
 <br>
 <h2>The menu</h2>
 
-<img src="./assets/images/readme/timeline.png">
+<img src="image/bar.png">
 
 the menu nav lead to a page with what to expect in terms of food, the breakfast Lunch and Dinner this also include deserts. it also introduce the reader to the rooms and other feautures like Bar and gym
 
@@ -33,7 +34,7 @@ the menu nav lead to a page with what to expect in terms of food, the breakfast 
 
 <h2>The Gallery</h2>
 
-<img src="./assets/images/readme/pics.jpeg">
+<img src="image/gallery.png">
 
 the Gallery section show some images of what beauty Shalons House is. it cover from the receptions to the rooms, bar gym and food. making a clearer expectation for the reader
 
@@ -41,12 +42,13 @@ the Gallery section show some images of what beauty Shalons House is. it cover f
 
 <h2>Bar</h2>
 
-<img src="./assets/images/readme/form.png">
+<img src="bar.png">
 
 the Bar section express our desires to fulfill guest dream of a perfect drinking spot with different variaty of drives and great service bar attendant.
  <br>
 
  <h1>Testing</h1>
+ 
 
  I used devtools device toolbar to confirm it is responsive on different screen sizes, and also used Responsive Design Checker.com to see how it looked on smaller devices.
 
@@ -73,7 +75,7 @@ I tried to correct some of these errors, but it wasnt clear what exactly i was t
 <br>
 <strong>CSS</strong> - there was 1 error found with CSS when checked on <a href="https://validator.w3.org/nu/#l2c70".>w3 validator</a> this error was the font link copied from google font and have been pasted correctly.
 
-<img src="./assets/images/readme/w3c.png">
+<img src="image/errors.png">
 
 <br>
 <strong>Accessibility</strong>
@@ -81,10 +83,10 @@ I tried to correct some of these errors, but it wasnt clear what exactly i was t
 I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.<a href="https://8000-brightigiem-shalonshous-6ob6uzuearb.ws-eu82.gitpod.io/index.html">lighthouse</a>
 
 
-<img src="./assets/images/readme/desktop.png">
+<img src="image/lighth.png">
 <p><p></p>Desktop stats
 
-<<img src="./assets/images/readme/mobile.png">
+<<img src="image/lightho.png">
 </p>Mobile stats
 
 <p>
