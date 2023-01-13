@@ -611,32 +611,33 @@ input[type=text] {
     }
     /*footer*/
 
-.social-icon {
+    .social-icon {
     width: 100%;
     height: 9rem;
     text-align: center;
     background-color: white;
     float: left;
     border-top: 4px solid black;
-}
-.social-bottom{
+    }
+    .social-bottom{
     display: flex;
     justify-content:center;
-}
-#social > a {
+    }
+    #social > a {
     color: rgb(58, 8, 238);
     text-decoration: none;
     padding: 0 20px;
     font-size: 5rem;
     text-align: center;
     margin-left: 6rem;
-}
+    }
 
-.social-bottom > p {
+    .social-bottom > p {
     color: rgb(58, 8, 238);
     font-size: 15px;
     text-align: right;
-}
+    }
+
 
 
 
