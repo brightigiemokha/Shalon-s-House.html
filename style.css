@@ -54,11 +54,11 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: rgb(205, 31, 191);
-    font-size: 23px;
+    font-size: 30px;
 }
 .navbar :hover {
     transform: translateY(-10px);
-    color: red;
+    color: rgb(249, 246, 246);
     
 }
 /*front page heading*/
@@ -218,6 +218,7 @@ nav ul li a{
         height: 450px;
         border-top: 4px solid white;
         background-color: rgb(8, 0, 0);
+        margin-bottom: 50px;
     }
     #room {
         width: 50%;
@@ -229,6 +230,17 @@ nav ul li a{
         color: white;
         font-size: 15px;
     }
+    #Room li {
+        font-size: 65px;
+        text-align: left;
+
+    }
+    .room lu{
+        margin-left: 20px;
+    }
+    .room h3 {
+        font-size: 20px;
+    }
     #roomvids {
         width: 45%;
         height: 450px;
@@ -238,21 +250,26 @@ nav ul li a{
         background-color: rgb(0, 0, 0);;
     }
     /*gym section*/
+    #roompic{
+        height: 500px;
+        width: 99%;
+        display: flex;
+        flex-direction: row;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
         #gympic {
             width: 49%;
             height: 500px;
             padding-left: 5px;
             padding-right: 5px;
-            margin-top: 10px;
-            margin-bottom: 10px;
             position:relative;
-            float: left;
             cursor: pointer;
             border-top: 4px solid rgb(252, 250, 250);
             background-color: rgb(0, 0, 0);
         }
         #gym-pix1 {
-            background: url(image/gym4.jpeg) no-repeat center center;
+            background: url(image/gym3.jpeg) no-repeat center center;
             background-size: cover;
             width: 24%;
             height: 500px;
@@ -262,7 +279,7 @@ nav ul li a{
             background-color: rgb(0, 0, 0);
         }
         #gym-pix2 {
-            background: url(image/gym1.jpeg) no-repeat center center;
+            background: url(image/gym7.jpeg) no-repeat center center;
             background-size: cover;
             width: 24%;
             height: 500px;
@@ -273,7 +290,7 @@ nav ul li a{
             background-color: rgb(0, 0, 0);
         }
         #gymtext{
-            width: 49%;
+            width: 50%;
             height: 500px;
             float: right;
             font-size: 20px;
@@ -286,29 +303,30 @@ nav ul li a{
 
     /*bar section*/
     #barvid {
-        width: 98%;
-        height: 450px;
+        width: 99%;
+        height: 500px;
         border-top: 4px solid white;
         background-color: rgb(8, 0, 0);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
     }
     #barvids {
-        width: 45%;
+        width: 49%;
         height: 450px;
-        float: right;
         position: relative;
         background-size: cover;
         background-color: rgb(0, 0, 0);
     }
     #bartext{
         width: 49%;
-        height: 500px;
-        float: left;
+        height: 450px;
         font-size: 20px;
         color: blueviolet;
         position: relative;
         border-top: 4px solid rgb(246, 242, 242);
         background-color: rgb(0, 0, 0);
-        padding-bottom: 20px;
 
     }
     /*gallery section*/
@@ -589,7 +607,7 @@ input[type=text] {
 
 .social-icon {
     width: 100%;
-    height: 8rem;
+    height: 9rem;
     text-align: center;
     background-color: white;
     float: left;
@@ -603,7 +621,7 @@ input[type=text] {
     color: rgb(58, 8, 238);
     text-decoration: none;
     padding: 0 20px;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     margin-left: 6rem;
 }
@@ -1207,8 +1225,8 @@ input[type=text] {
                 color: blueviolet;
             }
             #room li {
-                font-size: 5px;
-                text-align: center;
+                font-size: 10px;
+                text-align: left;
 
             }
             #barvid {
@@ -1961,8 +1979,8 @@ input[type=text] {
                 color: blueviolet;
             }
             #room li {
-                font-size: 5px;
-                text-align: center;
+                font-size: 10px;
+                text-align: left;
 
             }
             #barvid {
@@ -2295,7 +2313,7 @@ input[type=text] {
             }
             #barvids {
                 width: 47%;
-                height: 400px;
+                height: 250px;
                 float: right;
                 position: relative;
                 background-size: cover;
