@@ -78,7 +78,7 @@ I tried to correct some of these errors, but it wasnt clear what exactly i was t
 <br>
 <strong>Accessibility</strong>
 
-I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.
+I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.<a href="https://8000-brightigiem-shalonshous-6ob6uzuearb.ws-eu82.gitpod.io/index.html">lighthouse</a>
 
 
 <img src="./assets/images/readme/desktop.png">
@@ -92,26 +92,24 @@ I made sure the page was easy to read and navigate by running it through Lightho
 
 The site was deployed to Github pages. To get to the page, go to the Github repositry, and head for the Settings tab. Click 'Pages' on the left-hand column, and 
 it will take you to the live website address. 
-<p>The live link can be found here -  <a href="https://joannalsk.github.io/The-Tower-of-London/">The Tower of London.</a>
+<p>The live link can be found here -  <a href="https://brightigiemokha.github.io/Shalon-s-House.html/">Shalon's House.</a>
 
 <br>
 <h1>Credits</h1>
 
-The hero image was taken from  <a href="https://upload.wikimedia.org/wikipedia/commons/5/5d/Tower_of_London_-_01.jpg ">Wikipedia</a>
+All image was taken from  <a href="https://unsplash.com/">Unsplash</a>
 All other images were taken by me.
 
-Thanks to Harry Dhillon and Chris Quinn for stepping in for mentor sessions at the start. Thanks to my mentor, Rahul Lakhanpal for helping me create a good looking site and 
+Thanks to Lucimeri Andretta , Tomasz Ostroga , and Jochem
+#7438 on Discord for stepping in for mentor sessions and help. Thanks to my mentor, Rahul_mentor for helping me create a good looking site and 
 picking up on where I needed to go. Thanks to the Slack community for answering lots of questions.</p>
 
  Responsive Design Checker.com for testing the responsive design on different screen sizes. 
  
  <p>w3schools.com for help with the gallery CSS. 
 
- <p>Information on the Tower was taken from <a href="https://en.wikipedia.org/wiki/Tower_of_London">Wikipedia.</a> and my own knowledge.
  
- <p>Further info on the Princes in the Tower taken from <a href="https://www.theguardian.com/science/2013/feb/05/princes-in-tower-staying-under"> The Guardian </a>
 
-<p>I used the Love Running signup form challenge for the basis of my Mailing List form.
 
 
 
