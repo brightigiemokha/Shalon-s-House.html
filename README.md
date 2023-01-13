@@ -7,8 +7,10 @@ Shalon's House is a dream soon ti be fulfilled. a dream of one of the best hotel
 <h1>Features</h1>
 
 <h2>Navigation</h2>
-At the top of the page is the navigation bar, which shows the website logo, Shalon's house. To the right are four navigation links: Home, Menu, Room, Bar, Gym and Booking, which link
-<p>to different sections of the main page.
+<img src="./assets/images/readme/about.png">
+
+<p>At the top of the page is the navigation bar, which shows the website logo, Shalon's house. To the right are of the index page i have plave just 2 links there, Home and Menu and on the second (menu page) i have five navigation links: Home, Menu, booking-in, contact, gallery which link
+to different sections of the main page.</p>
 <p>The navigation is in a simple Oswald for easy viewing, and it's also a perfect administrative fonts for professional writings.
 <p>The navigation is simple to use and makes it clear what they are about.
 
@@ -18,14 +20,14 @@ At the top of the page is the navigation bar, which shows the website logo, Shal
 
 <img src="./assets/images/readme/about.png">
 
-The home section introduce the reader to the hotel and what features they have. its a beautiful front page with 4 pictures to make it very clear what section is talking about. e.g the bar, gym, food and the rooms 
+<p>The home section introduce the reader to the hotel and what features they have. its a beautiful front page with 4 pictures to make it very clear what section it's talking about. e.g the bar, gym, food and the rooms </p>
 
 <br>
 <h2>The menu</h2>
 
 <img src="./assets/images/readme/timeline.png">
 
-the menu nav lead to a page with what to expect in terms of food, the breakfast Lunch and Dinner this also include deserts
+the menu nav lead to a page with what to expect in terms of food, the breakfast Lunch and Dinner this also include deserts. it also introduce the reader to the rooms and other feautures like Bar and gym
 
 <br>
 
