@@ -1674,15 +1674,13 @@ input[type=text] {
                 width: 100%;
                 height: auto;
                 display: flex;
-                align-items: flex-end;
             
             }
         
             #gallery1{
                 background-image: url(image/reception.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1696,9 +1694,8 @@ input[type=text] {
         
             #gallery2{
                 background-image: url(image/recep2.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1712,9 +1709,8 @@ input[type=text] {
             }
             #gallery3{
                 background-image: url(image/happy.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1728,9 +1724,8 @@ input[type=text] {
             }
             #gallery4{
                 background-image: url(image/room=5.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1744,9 +1739,8 @@ input[type=text] {
             }
             #gallery5{
                 background-image: url(image/masage.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1761,9 +1755,8 @@ input[type=text] {
         
             #gallery6{
                 background-image: url(image/room4.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1777,9 +1770,8 @@ input[type=text] {
             }
             #gallery7{
                 background-image: url(image/bar1.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1793,9 +1785,8 @@ input[type=text] {
             }
             #gallery8{
                 background-image: url(image/wine6.avif);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
@@ -1809,9 +1800,8 @@ input[type=text] {
             }
             #gallery9{
                 background-image: url(image/yoga.jpeg);
-                width: 49%;
+                width: 45%;
                 height: 300px;
-                display: inline-block;
                 padding: 5px 5px;
                 box-sizing: border-box;
                 cursor: pointer;
