@@ -35,7 +35,7 @@ the menu nav lead to a page with what to expect in terms of food, the breakfast 
 
 <img src="./assets/images/readme/pics.jpeg">
 
-the Gallery section show some images of what beauty Shalons House is. it cover from the receptions to the rooms, bar gym and food. making a clearer expectation
+the Gallery section show some images of what beauty Shalons House is. it cover from the receptions to the rooms, bar gym and food. making a clearer expectation for the reader
 
 <br>
 
@@ -43,7 +43,7 @@ the Gallery section show some images of what beauty Shalons House is. it cover f
 
 <img src="./assets/images/readme/form.png">
 
-the Bar section express our desires to fulfill guest desires with different variaty of drives and great service bar attendant.
+the Bar section express our desires to fulfill guest dream of a perfect drinking spot with different variaty of drives and great service bar attendant.
  <br>
 
  <h1>Testing</h1>
@@ -52,10 +52,9 @@ the Bar section express our desires to fulfill guest desires with different vari
 
  <p>I tested each of the links in the nav bar to make sure they linked to the correct sections.
 
- <p>I checked each external link linked to the correct page and that no links were broken.
+ <p>I checked the external link linked to the correct page and that no links were broken.
 
  <p>I confirmed that the form works, that only first name will go in the first name box, last name in the last name box, and email address in the email box. 
- I confirmed pressing 'Submit' results in a pop up to confirm these fields need filling in, and it won't let you submit without them.
 
 <br>
  <h2>Bugs</h2>
@@ -66,14 +65,13 @@ No known bugs have been found.
 
 <h2>Validator Testing</h2>
 
-<strong>HTML</strong> - Unfortunately, the <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoannalsk.github.io%2FThe-Tower-of-London%2F">W3C Validator</a> detected 24 errors and 14 warnings. 
+<strong>HTML</strong> - Unfortunately, the <a href="https://validator.w3.org/nu/#textarea">W3C Validator</a> detected 6 errors and 7 warnings. 
 
 <p>
-I tried to correct some of these errors, but it resulted in my site losing its structure. Given the lack of time before the deadline, 
-I felt it best not to make these changes, as it may have resulted in me unable to correct them and handing in a site with everything out of place. Other issues brought up included the forward-slash-a tags, which were marked as stray end tags. I will try to fix these errors for resubmission.
+I tried to correct some of these errors, but it wasnt clear what exactly i was to correct as they were codes i thought where correct. i didnt have much time to get some help because of time and i work full time.
 
 <br>
-<strong>CSS</strong> - No errors were found when it was checked with the W3C Validator.
+<strong>CSS</strong> - there was 1 error found with CSS when checked on <a href="https://validator.w3.org/nu/#l2c70".>w3 validator</a> this error was the font link copied from google font and have been pasted correctly.
 
 <img src="./assets/images/readme/w3c.png">
 
