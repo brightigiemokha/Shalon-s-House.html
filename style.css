@@ -81,6 +81,7 @@ nav ul li a{
     h1{
         color: rgb(205, 31, 191);
         font-size: 100px;
+        text-align: center;
     }
     p{
         color: blueviolet;
@@ -224,19 +225,21 @@ nav ul li a{
         width: 50%;
         height: 450px;
         float: left;
-        flex-wrap: wrap;
+        flex-direction: column;
         display: flex; 
         background-color: rgb(0, 0, 0);;
         color: white;
         font-size: 15px;
     }
-    #Room li {
-        font-size: 65px;
-        text-align: left;
+    #room li {
+        font-size: 20px;
+        text-align: center;
+        padding-left: 5px;
 
     }
     .room lu{
         margin-left: 20px;
+        font-size: 20px;
     }
     .room h3 {
         font-size: 20px;
@@ -297,6 +300,7 @@ nav ul li a{
             position: relative;
             border-top: 4px solid rgb(246, 242, 242);
             background-color: rgb(0, 0, 0);
+            padding-left: 20px;
             
 
         }
@@ -327,6 +331,7 @@ nav ul li a{
         position: relative;
         border-top: 4px solid rgb(246, 242, 242);
         background-color: rgb(0, 0, 0);
+        padding-left: 20px;
 
     }
     /*gallery section*/
@@ -617,7 +622,7 @@ input[type=text] {
     display: flex;
     justify-content:center;
 }
-.social > a {
+#social > a {
     color: rgb(58, 8, 238);
     text-decoration: none;
     padding: 0 20px;
@@ -1249,7 +1254,7 @@ input[type=text] {
             display: flex;
             justify-content:center;
         }
-        .social > a {
+        #social > a {
             color: rgb(58, 8, 238);
             text-decoration: none;
             padding: 0 20px;
@@ -1901,7 +1906,7 @@ input[type=text] {
             display: flex;
             justify-content:center;
         }
-        .social > a {
+        #social > a {
             color: rgb(58, 8, 238);
             text-decoration: none;
             padding: 0 20px;
@@ -2649,7 +2654,7 @@ input[type=text] {
                 display: flex;
                 justify-content:center;
             }
-            .social > a {
+            #social > a {
                 color: rgb(58, 8, 238);
                 text-decoration: none;
                 padding: 0 15px;
