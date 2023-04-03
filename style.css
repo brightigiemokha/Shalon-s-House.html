@@ -33,14 +33,12 @@ body {
 }
 .logo {
     width: 20rem;
-    cursor: pointer;
     background-color: rgb(184, 177, 177);
     box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     
 }
 .menu-icon {
     width: 30px;
-    cursor: pointer;
     margin-left: 40px;
 }
 nav {
@@ -111,7 +109,6 @@ nav ul li a{
         border-radius: 10px;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -267,7 +264,6 @@ nav ul li a{
             padding-left: 5px;
             padding-right: 5px;
             position:relative;
-            cursor: pointer;
             border-top: 4px solid rgb(252, 250, 250);
             background-color: rgb(0, 0, 0);
         }
@@ -348,7 +344,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -365,7 +360,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -381,7 +375,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -397,7 +390,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -413,7 +405,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -430,7 +421,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -446,7 +436,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -462,7 +451,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -478,7 +466,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -494,7 +481,6 @@ nav ul li a{
         display: inline-block;
         padding: 15px 25px;
         box-sizing: border-box;
-        cursor: pointer;
         margin: 10px 15px;
         background-position: center;
         background-size: cover;
@@ -664,14 +650,12 @@ input[type=text] {
     }
     .logo {
         width: 15rem;
-        cursor: pointer;
         background-color: rgb(184, 177, 177);
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
         
     }
     .menu-icon {
         width: 20px;
-        cursor: pointer;
         margin-left: 30px;
     }
     nav {
@@ -743,7 +727,6 @@ input[type=text] {
             border-radius: 10px;
             padding: 5px 10px;
             box-sizing: border-box;
-            cursor: pointer;
             margin: 5px 5px;
             background-position: center;
             background-size: cover;
@@ -965,7 +948,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -982,7 +964,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -998,7 +979,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -1014,7 +994,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -1030,7 +1009,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -1047,7 +1025,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -1063,7 +1040,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -1079,7 +1055,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -1095,7 +1070,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -1298,14 +1272,12 @@ input[type=text] {
     }
     .logo {
         width: 10rem;
-        cursor: pointer;
         background-color: rgb(184, 177, 177);
         box-shadow: rgb(94, 95, 95) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
         
     }
     .menu-icon {
         width: 20px;
-        cursor: pointer;
         margin-left: 30px;
     }
     nav {
@@ -1378,7 +1350,6 @@ input[type=text] {
             border-radius: 10px;
             padding: 5px 10px;
             box-sizing: border-box;
-            cursor: pointer;
             margin: 5px 5px;
             background-position: center;
             background-size: cover;
@@ -1594,7 +1565,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1609,7 +1579,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1624,7 +1593,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1639,7 +1607,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1654,7 +1621,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1670,7 +1636,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1685,7 +1650,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1700,7 +1664,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1715,7 +1678,6 @@ input[type=text] {
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
@@ -1951,14 +1913,12 @@ input[type=text] {
     }
     .logo {
         width: 8rem;
-        cursor: pointer;
         background-color: rgb(184, 177, 177);
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
         
     }
     .menu-icon {
         width: 20px;
-        cursor: pointer;
         margin-left: 30px;
     }
     nav {
@@ -2029,7 +1989,6 @@ input[type=text] {
             border-radius: 10px;
             padding: 10px 20px;
             box-sizing: border-box;
-            cursor: pointer;
             margin: 5px 10px;
             background-position: center;
             background-size: cover;
@@ -2245,7 +2204,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2262,7 +2220,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2278,7 +2235,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2294,7 +2250,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2310,7 +2265,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2327,7 +2281,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2343,7 +2296,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2359,7 +2311,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2375,7 +2326,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 15px 25px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 10px 15px;
                 background-position: center;
                 background-size: cover;
@@ -2549,7 +2499,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2560,7 +2509,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2570,7 +2518,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2580,7 +2527,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2590,7 +2536,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2601,7 +2546,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2611,7 +2555,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2621,7 +2564,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
             }
@@ -2632,7 +2574,6 @@ input[type=text] {
                 display: inline-block;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                cursor: pointer;
                 margin: 5px 10px;
                 font-size: 15px;
 
