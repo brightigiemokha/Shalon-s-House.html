@@ -1280,7 +1280,7 @@ input[type=text] {
         width: 98%;
         height: 98vh;
         color: gold;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(252, 250, 250);
         background-image: url(image/table.avif);
         background-position: center;
         background-size: cover;
@@ -1300,7 +1300,7 @@ input[type=text] {
         width: 10rem;
         cursor: pointer;
         background-color: rgb(184, 177, 177);
-        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+        box-shadow: rgb(94, 95, 95) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
         
     }
     .menu-icon {
@@ -1412,7 +1412,7 @@ input[type=text] {
         .menuhouse{
             width: 98%;
             height: 90vh;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(252, 250, 250);
             padding-left: 2%;
             padding-right: 2%;
             box-sizing: border-box;
@@ -1486,15 +1486,15 @@ input[type=text] {
             #roomvid {
                 width: 100%;
                 height: 250px;
-                border-top: 4px solid white;
-                background-color: rgb(8, 0, 0);
+                border-top: 4px solid rgb(15, 15, 15);
+                background-color: rgb(252, 250, 250);
             }
             #room {
                 width: 45%;
                 height: 250px;
                 float: left;
                 display: flex; 
-                background-color: rgb(0, 0, 0);;
+                background-color: rgb(252, 250, 250);
                 color: white;
             }
             #roomvids {
@@ -1503,7 +1503,7 @@ input[type=text] {
                 float: right;
                 position: relative;
                 background-size: cover;
-                background-color: rgb(0, 0, 0);;
+                background-color: rgb(252, 250, 250);
             }
             /*gym section*/
                 #gympic {
@@ -1516,7 +1516,7 @@ input[type=text] {
                     position:relative;
                     float: left;
                     border-top: 4px solid rgb(252, 250, 250);
-                    background-color: rgb(0, 0, 0);;
+                    background-color: rgb(252, 250, 250);
                 }
                 #roompic{
                     width: 99%;
@@ -1530,7 +1530,7 @@ input[type=text] {
                     position:relative;
                     display: inline-flex;
                     margin-right: 5px;
-                    background-color: rgb(0, 0, 0);
+                    background-color: rgb(252, 250, 250);
                 }
                 #gym-pix2 {
                     background: url(image/gym7.jpeg) no-repeat center center;
@@ -1541,7 +1541,7 @@ input[type=text] {
                     display: inline-flex;
                     margin-right: 10px;
                     margin-right: 5px;
-                    background-color: rgb(0, 0, 0);
+                    background-color: rgb(252, 250, 250);
                 }
                 #gymtext{
                     width: 49%;
@@ -1550,7 +1550,7 @@ input[type=text] {
                     font-size: 20px;
                     position: relative;
                     border-top: 4px solid rgb(246, 242, 242);
-                    background-color: rgb(0, 0, 0);
+                    background-color: rgb(252, 250, 250);
         
                 }
             /*bar section*/
@@ -1558,7 +1558,7 @@ input[type=text] {
                 width: 98%;
                 height: 450px;
                 border-top: 4px solid white;
-                background-color: rgb(8, 0, 0);
+                background-color: rgb(252, 250, 250);
             }
             #barvids {
                 width: 54%;
@@ -1566,7 +1566,7 @@ input[type=text] {
                 float: right;
                 position: relative;
                 background-size: cover;
-                background-color: rgb(0, 0, 0);
+                background-color: rgb(252, 250, 250);
             }
             #bartext{
                 width: 45%;
@@ -1576,7 +1576,7 @@ input[type=text] {
                 color: blueviolet;
                 position: relative;
                 border-top: 4px solid rgb(246, 242, 242);
-                background-color: rgb(0, 0, 0);
+                background-color: rgb(252, 250, 250);
                 padding-bottom: 20px;
         
             }
@@ -1768,14 +1768,14 @@ input[type=text] {
             width: 80%;
             color: rgb(255, 215, 0);
             border-top: 4px solid rgb(252, 250, 250);
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(252, 250, 250);
             margin-top: 20px;
             
         }
         #reghead {
             text-align: center;
             margin-bottom: 20px;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(252, 250, 250);
             
         }
         #regform{
@@ -1888,7 +1888,7 @@ input[type=text] {
                 float: right;
                 position: relative;
                 background-size: cover;
-                background-color: rgb(0, 0, 0);
+                background-color: rgb(252, 250, 250);
             }
             
          /*footer*/
@@ -1933,7 +1933,7 @@ input[type=text] {
         width: 98%;
         height: 98vh;
         color: gold;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(252, 250, 250);
         background-image: url(image/table.avif);
         background-position: center;
         background-size: cover;
@@ -2057,7 +2057,7 @@ input[type=text] {
         .menuhouse{
             width: 98%;
             height: 50vh;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(252, 250, 250);
             padding-left: 2%;
             padding-right: 2%;
             box-sizing: border-box;
@@ -2130,15 +2130,15 @@ input[type=text] {
                 width: 100%;
                 height: 200px;
                 border-top: 4px solid white;
-                background-color: rgb(8, 0, 0);
+                background-color: rgb(252, 250, 250);
             }
             #room {
                 width: 45%;
                 height: 150px;
                 float: left;
                 display: flex; 
-                background-color: rgb(0, 0, 0);;
-                color: white;
+                background-color: rgb(252, 250, 250);
+                color: rgb(10, 10, 10);
             }
             #roomvids {
                 width: 54%;
@@ -2147,13 +2147,13 @@ input[type=text] {
                 position: relative;
                 background-size: cover;
                 align-items: center;
-                background-color: rgb(0, 0, 0);;
+                background-color: rgb(252, 250, 250);
             }
             /*gym section*/
             #roompic {
                 height: 250;
                 padding-top: 10px;
-                border-top: 4px solid white;
+                border-top: 4px solid rgb(12, 12, 12);
                 width: 100%;
             }
                 #gympic {
@@ -2165,8 +2165,8 @@ input[type=text] {
                     margin-bottom: 10px;
                     position:relative;
                     float: left;
-                    border-top: 4px solid rgb(252, 250, 250);
-                    background-color: rgb(0, 0, 0);;
+                    border-top: 4px solid rgb(15, 15, 15);
+                    background-color: rgb(252, 250, 250);
                 }
                 #gym-pix1 {
                     background: url(image/gym4.jpeg) no-repeat center center;
@@ -2176,7 +2176,7 @@ input[type=text] {
                     position:relative;
                     display: inline-flex;
                     margin-right: 5px;
-                    background-color: rgb(0, 0, 0);
+                    background-color: rgb(252, 250, 250);
                 }
                 #gym-pix2 {
                     background: url(image/gym1.jpeg) no-repeat center center;
@@ -2187,7 +2187,7 @@ input[type=text] {
                     display: inline-flex;
                     margin-right: 10px;
                     margin-right: 5px;
-                    background-color: rgb(0, 0, 0);
+                    background-color: rgb(252, 250, 250);
                 }
                 #gymtext{
                     width: 49%;
@@ -2196,7 +2196,7 @@ input[type=text] {
                     font-size: 20px;
                     position: relative;
                     border-top: 4px solid rgb(246, 242, 242);
-                    background-color: rgb(0, 0, 0);
+                    background-color: rgb(252, 250, 250);
         
                 }
             /*bar section*/
@@ -2204,7 +2204,7 @@ input[type=text] {
                 width: 98%;
                 height: 250px;
                 border-top: 4px solid white;
-                background-color: rgb(8, 0, 0);
+                background-color: rgb(252, 250, 250);
             }
             #barvids {
                 width: 47%;
@@ -2212,7 +2212,7 @@ input[type=text] {
                 float: right;
                 position: relative;
                 background-size: cover;
-                background-color: rgb(0, 0, 0);
+                background-color: rgb(252, 250, 250);
             }
             #bartext{
                 width: 49%;
@@ -2221,8 +2221,8 @@ input[type=text] {
                 font-size: 20px;
                 color: blueviolet;
                 position: relative;
-                border-top: 4px solid rgb(246, 242, 242);
-                background-color: rgb(0, 0, 0);
+                border-top: 4px solid rgb(252, 250, 250);
+                background-color: rgb(252, 250, 250);
                 padding-bottom: 20px;
         
             }
@@ -2251,7 +2251,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid rgb(14, 13, 13);
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
         
@@ -2268,7 +2268,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid rgb(22, 22, 22);
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery3{
@@ -2284,7 +2284,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid rgb(15, 15, 15);
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery4{
@@ -2300,7 +2300,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid rgb(252, 250, 250);
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery5{
@@ -2427,14 +2427,14 @@ input[type=text] {
             width: 80%;
             color: rgb(255, 215, 0);
             border-top: 4px solid rgb(252, 250, 250);
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(252, 250, 250);
             margin-top: 20px;
             padding-left: 10px;
         }
         #reghead {
             text-align: center;
             margin-bottom: 20px;
-            background-color: rgb(0, 0, 0);
+            background-color: rgb(252, 250, 250);
             
         }
         #regform{
