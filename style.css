@@ -33,9 +33,7 @@ body {
 }
 .logo {
     width: 20rem;
-    background-color: rgb(184, 177, 177);
-    box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-    
+    background-color: #bde0fe;
 }
 .menu-icon {
     width: 30px;
@@ -77,12 +75,12 @@ nav ul li a{
 
     }
     h1{
-        color: rgb(205, 31, 191);
+        color: black;
         font-size: 100px;
         text-align: center;
     }
     p{
-        color: rgb(205, 31, 191);
+        color: black;
         font-size: 20px;
         text-align: center;
         text-justify: auto;
@@ -93,7 +91,7 @@ nav ul li a{
         padding: 12px 0;
         font-size: 12px;
         width: 180px;
-        color:rgb(205, 31, 191);
+        color:black;
         border: 0;
         border-radius: 20%;
         outline: none;
@@ -153,12 +151,8 @@ nav ul li a{
         margin-bottom: 40px;
         font-size: 15px;
         text-align: center;
-        color: rgb(205, 31, 191);
-        text-shadow: -1px 1px 0 #000,
-                          1px 1px 0 #000,
-                         1px -1px 0 #000,
-                        -1px -1px 0 #000;
-        border-top: 4px solid rgb(205, 31, 191);
+        color: black;
+        border-top: 4px dashed black;
     
     }
     #menu h6{
@@ -177,10 +171,9 @@ nav ul li a{
         display: inline-flex;
         margin-right: 5px;
         text-align: center;
-        color: rgb(205, 31, 191);
-        
-        
+        color: black; 
     }
+
     #breakf-menu {
         display: flex;
         justify-content: center;
@@ -189,14 +182,13 @@ nav ul li a{
         background-color: white;
         opacity: 0.7;
 
-        
-
     }
 
     #breakf-menu > * {
         list-style-type: none;
 
     }
+
     #lunch-pix2 {
         background: url(image/food1.jpeg) no-repeat center center;
         background-size: cover;
@@ -214,9 +206,6 @@ nav ul li a{
         height: 40% ;
         background-color: white;
         opacity: 0.7;
-
-        
-
     }
 
     #lunch-menu > * {
@@ -264,16 +253,13 @@ nav ul li a{
 
     #desert-menu > * {
         list-style-type: none;
+    }
 
-    }
-    #menu :hover {
-        transform: translateY(-10px);
-    }
     /*rooms list*/
     #roomvid {
         width: 100%;
         height: 450px;
-        border-top: 4px solid rgb(205, 31, 191);
+        border-top: 4px dashed black;
         background-color: #bde0fe;
         margin-bottom: 50px;
     }
@@ -281,25 +267,33 @@ nav ul li a{
         width: 50%;
         height: 450px;
         float: left;
+        display: flex;
         flex-direction: column;
-        display: flex; 
         background-color: #bde0fe;
-        color: rgb(205, 31, 191);
-        font-size: 15px;
+        color: black;
+        font-size: 20px;     
+    }
+
+    #pres-room {
+        border-bottom: 4px dashed black;
+        
     }
     #room li {
         font-size: 20px;
         text-align: center;
         padding-left: 5px;
-
+        list-style-type: none;
     }
+
     .room lu{
         margin-left: 20px;
-        font-size: 20px;
+        font-size: 20px;  
     }
+
     .room h3 {
         font-size: 20px;
     }
+
     #roomvids {
         width: 45%;
         height: 450px;
@@ -308,6 +302,7 @@ nav ul li a{
         background-size: cover;
         background-color: #bde0fe;
     }
+
     /*gym section*/
     #roompic{
         height: 500px;
@@ -317,15 +312,17 @@ nav ul li a{
         padding-top: 10px;
         padding-bottom: 10px;
     }
+
         #gympic {
             width: 49%;
             height: 500px;
             padding-left: 5px;
             padding-right: 5px;
             position:relative;
-            border-top: 4px solid rgb(205, 31, 191);
+            border-top: 4px dashed black;
             background-color: #bde0fe;
         }
+
         #gym-pix1 {
             background: url(image/gym3.jpeg) no-repeat center center;
             background-size: cover;
@@ -336,6 +333,7 @@ nav ul li a{
             margin-right: 5px;
             background-color: #bde0fe;
         }
+
         #gym-pix2 {
             background: url(image/gym7.jpeg) no-repeat center center;
             background-size: cover;
@@ -347,24 +345,23 @@ nav ul li a{
             margin-right: 5px;
             background-color: #bde0fe;
         }
+
         #gymtext{
             width: 50%;
             height: 500px;
             float: right;
             font-size: 20px;
             position: relative;
-            border-top: 4px solid rgb(205, 31, 191);
+            border-top: 4px dashed black;
             background-color: #bde0fe;
             padding-left: 20px;
-            
-
         }
 
     /*bar section*/
     #barvid {
         width: 99%;
         height: 500px;
-        border-top: 4px solid rgb(205, 31, 191);
+        border-top: 4px dashed black;
         background-color: #bde0fe;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -382,9 +379,9 @@ nav ul li a{
         width: 49%;
         height: 450px;
         font-size: 20px;
-        color: rgb(205, 31, 191);
+        color: black;
         position: relative;
-        border-top: 4px solid rgb(205, 31, 191);
+        border-top: 4px dashed black;
         background-color: #bde0fe;
         padding-left: 20px;
 
@@ -394,6 +391,7 @@ nav ul li a{
         width: 100%;
         height: 900px;
         padding-top: 20px;
+        border-bottom: 4px dashed black;
     }
 
     #gallery1{
@@ -535,29 +533,20 @@ nav ul li a{
     }
     #gallery :hover {
         transform: translateY(-10px);
-        width: 30%;
-        height: 200px;
-        display: inline-block;
-        padding: 15px 25px;
-        box-sizing: border-box;
-        margin: 10px 15px;
-        background-position: center;
-        background-size: cover;
-        font-size: 30px;
-        transition: transform 0.5s;
-        border: 2px solid #bde0fe;
+
         
     }
 /*booking form*/
 #regform{
     font-size: 30px;
     text-justify: auto;
-    width: 80%;
-    color: rgb(255, 215, 0);
+    width: 90%;
+    color: black;
     border-top: 4px solid #bde0fe;
     background-color: #bde0fe;
     margin-top: 20px;
     padding-left: 60px;
+    border-top: 4px dashed black;
     
 }
 #reghead {
@@ -581,7 +570,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
 
   }
   input[type=email] {
@@ -589,7 +578,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
 
   }
   input[type=address] {
@@ -597,7 +586,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
 
   }
   input[type=tel] {
@@ -605,7 +594,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
 
   }
   input[type=date] {
@@ -613,7 +602,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
 
   }
   input[type=password] {
@@ -621,7 +610,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
 
   }
   input[select-name=stage] {
@@ -629,21 +618,21 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
 
   }
   .Reset {
-        color: rgb(213, 222, 225);
+        color: black;
         background-color: rgb(237, 48, 48);
         font-size: 30px;
-        border: 4px solid rgb(255, 215, 0);
+        border: 4px solid black;
         padding: 4px;        
             }
   .Submit {
-    color: rgb(213, 222, 225);
+    color: black;
     background-color: rgb(12, 157, 113);
     font-size: 30px;
-    border: 4px solid rgb(255, 215, 0);
+    border: 4px solid black;
     padding: 4px;
          }
     #stage {
@@ -651,7 +640,7 @@ input[type=text] {
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
-        border: 4px solid rgb(255, 215, 0);
+        border: 4px solid black;
     }
     /*footer*/
 
