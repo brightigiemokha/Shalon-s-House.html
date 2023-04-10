@@ -375,7 +375,7 @@ nav ul li a{
         background-size: cover;
         background-color: #bde0fe;
     }
-    #bartext{
+    #bartext {
         width: 49%;
         height: 450px;
         font-size: 20px;
@@ -387,14 +387,14 @@ nav ul li a{
 
     }
     /*gallery section*/
-    #gallary{
+    #gallery {
         width: 100%;
         height: 900px;
         padding-top: 20px;
-        border-bottom: 4px solid #E11299;
+
     }
 
-    #gallery1{
+    #gallery1 {
         background-image: url(image/reception.jpeg);
         width: 30%;
         height: 200px;
@@ -410,7 +410,7 @@ nav ul li a{
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
 
-    #gallery2{
+    #gallery2 {
         background-image: url(image/recep2.jpeg);
         width: 30%;
         height: 200px;
@@ -425,7 +425,7 @@ nav ul li a{
         border: 2px solid #E11299;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
-    #gallery3{
+    #gallery3 {
         background-image: url(image/happy.jpeg);
         width: 30%;
         height: 200px;
@@ -440,7 +440,7 @@ nav ul li a{
         border: 2px solid #E11299;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
-    #gallery4{
+    #gallery4 {
         background-image: url(image/room=5.jpeg);
         width: 30%;
         height: 200px;
@@ -455,7 +455,7 @@ nav ul li a{
         border: 2px solid #E11299;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
-    #gallery5{
+    #gallery5 {
         background-image: url(image/masage.jpeg);
         width: 30%;
         height: 200px;
@@ -471,7 +471,7 @@ nav ul li a{
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
 
-    #gallery6{
+    #gallery6 {
         background-image: url(image/room4.jpeg);
         width: 30%;
         height: 200px;
@@ -486,7 +486,7 @@ nav ul li a{
         border: 2px solid #E11299;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
-    #gallery7{
+    #gallery7 {
         background-image: url(image/bar1.jpeg);
         width: 30%;
         height: 200px;
@@ -501,7 +501,7 @@ nav ul li a{
         border: 2px solid #E11299;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
-    #gallery8{
+    #gallery8  {
         background-image: url(image/wine6.avif);
         width: 30%;
         height: 200px;
@@ -516,7 +516,7 @@ nav ul li a{
         border: 2px solid #E11299;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
-    #gallery9{
+    #gallery9 {
         background-image: url(image/yoga.jpeg);
         width: 30%;
         height: 200px;
@@ -533,11 +533,9 @@ nav ul li a{
     }
     #gallery :hover {
         transform: translateY(-10px);
-
-        
     }
 /*booking form*/
-#regform{
+#regform {
     font-size: 30px;
     text-justify: auto;
     width: 90%;
@@ -698,7 +696,7 @@ input[type=text] {
     }
     .logo {
         width: 15rem;
-        background-color: #bde0fe);
+        background-color: #bde0fe;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
         
     }
@@ -717,7 +715,7 @@ input[type=text] {
     }
     nav ul li a{
         text-decoration: none;
-        color: rgb(0, 0, 255);
+        color: #E11299;
         font-size: 28px;
     }
     .navbar :hover {
@@ -880,7 +878,7 @@ input[type=text] {
             #roomvid {
                 width: 100%;
                 height: 250px;
-                border-top: 4px solid white;
+                border-top: 4px solid #E11299;
                 background-color: #bde0fe;
                 
             }
@@ -891,7 +889,7 @@ input[type=text] {
                 float: left;
                 display: flex; 
                 background-color: #bde0fe;
-                color: rgb(255, 255, 255);
+                color: #E11299;
                 font-size: 15px;
                 
             }
@@ -914,7 +912,7 @@ input[type=text] {
                     margin-bottom: 10px;
                     position:relative;
                     float: left;
-                    border-top: 4px solid rgb(252, 250, 250);
+                    border-top: 4px solid #E11299;
                     background-color: #bde0fe;
                 }
                 #gym-pix1 {
@@ -944,7 +942,7 @@ input[type=text] {
                     float: right;
                     font-size: 20px;
                     position: relative;
-                    border-top: 4px solid rgb(246, 242, 242);
+                    border-top: 4px solid #E11299;
                     background-color: #bde0fe;
                     padding-left: 5px;
         
@@ -953,7 +951,7 @@ input[type=text] {
             #barvid {
                 width: 99%;
                 height: 450px;
-                border-top: 4px solid white;
+                border-top: 4px solid #E11299;
                 background-color: #bde0fe;
             }
             #barvids {
@@ -969,9 +967,9 @@ input[type=text] {
                 height: 450px;
                 float: left;
                 font-size: 20px;
-                color: blueviolet;
+                color: #E11299;
                 position: relative;
-                border-top: 4px solid rgb(246, 242, 242);
+                border-top: 4px solid #E11299;
                 background-color: #bde0fe;
                 padding-left: 10px;
         
@@ -998,7 +996,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
         
@@ -1014,7 +1012,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery3{
@@ -1029,7 +1027,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery4{
@@ -1044,7 +1042,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery5{
@@ -1059,7 +1057,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
         
@@ -1075,7 +1073,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery7{
@@ -1090,7 +1088,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery8{
@@ -1105,7 +1103,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery9{
@@ -1120,7 +1118,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #menu {
@@ -1132,8 +1130,8 @@ input[type=text] {
                 display: inline-block;
                 font-size: 10px;
                 text-align: center;
-                color: rgb(205, 31, 191);;
-                border-top: 4px solid rgb(253, 251, 251);
+                color: #E11299;
+                border-top: 4px solid #E11299;
             
             }
             #menu h6{
@@ -1148,7 +1146,7 @@ input[type=text] {
             padding-left: 30px;
             width: 80%;
             color: rgb(255, 215, 0);
-            border-top: 4px solid rgb(252, 250, 250);
+            border-top: 4px solid #E11299;
             background-color: #bde0fe;
             margin-top: 20px;
             
@@ -1177,7 +1175,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=email] {
@@ -1185,7 +1183,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=address] {
@@ -1193,7 +1191,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=tel] {
@@ -1201,7 +1199,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=date] {
@@ -1209,7 +1207,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=password] {
@@ -1217,7 +1215,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[select-name=stage] {
@@ -1225,21 +1223,21 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           .Reset {
                 color: rgb(213, 222, 225);
                 background-color: rgb(237, 48, 48);
                 font-size: 30px;
-                border: 4px solid rgb(255, 215, 0);
+                border: 4px solid #E11299;
                 padding: 4px;        
                     }
           .Submit {
             color: rgb(213, 222, 225);
             background-color: rgb(12, 157, 113);
             font-size: 30px;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
             padding: 4px;
                  }
             #stage {
@@ -1247,7 +1245,7 @@ input[type=text] {
                 padding: 12px 20px;
                 margin: 8px 0;
                 box-sizing: border-box;
-                border: 4px solid rgb(255, 215, 0);
+                border: 4px solid #E11299;
             }
             #room h3{
                 font-size: 10px;
@@ -1268,9 +1266,9 @@ input[type=text] {
             width: 100%;
             height: 8rem;
             text-align: center;
-            background-color: #bde0fee;
+            background-color: #bde0fe;
             float: left;
-            border-top: 4px solid black;
+            border-top: 4px solid #E11299;
         }
         .social-bottom{
             display: flex;
@@ -1286,7 +1284,7 @@ input[type=text] {
         }
         
         .social-bottom > p {
-            color: rgb(58, 8, 238);
+            color: #E11299;
             font-size: 15px;
             text-align: right;
         }
@@ -1301,8 +1299,8 @@ input[type=text] {
     .house{
         width: 98%;
         height: 98vh;
-        color: gold;
-        background-color: rgb(252, 250, 250);
+        color: #E11299;
+        background-color: #bde0fe;
         background-image: url(image/table.avif);
         background-position: center;
         background-size: cover;
@@ -1320,8 +1318,8 @@ input[type=text] {
     }
     .logo {
         width: 10rem;
-        background-color: rgb(184, 177, 177);
-        box-shadow: rgb(94, 95, 95) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+        background-color: #bde0fe;
+        box-shadow: rgb(248, 250, 250) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
         
     }
     .menu-icon {
@@ -1339,7 +1337,7 @@ input[type=text] {
     }
     nav ul li a{
         text-decoration: none;
-        color: rgb(0, 0, 255);
+        color: #E11299;
         font-size: 18px;
     }
     .navbar :hover {
@@ -1356,23 +1354,23 @@ input[type=text] {
             flex-basis: 50%;
         }
         .col h1{
-            color: rgb(205, 31, 191);
+            color: #E11299;
             font-size: 38px;
         }
         .col p{
-            color: blueviolet;
+            color: #E11299;
             font-size: 15px;
             line-height: 12px;
             text-align: left;
         
         }
         h1{
-            color: rgb(205, 31, 191);
+            color: #E11299;
             font-size: 40px;
             text-align: center;
         }
         p{
-            color: blueviolet;
+            color: #E11299;
             font-size: 13px;
             line-height:normal;
             text-align: left;
@@ -1382,7 +1380,7 @@ input[type=text] {
             padding: 7px 0;
             font-size: 15px;
             width: 100px;
-            color:blue;
+            color:#E11299;
             border: 0;
             border-radius: 30%;
             outline: none;
@@ -1403,7 +1401,7 @@ input[type=text] {
             background-size: cover;
             font-size: 15px;
             transition: transform 0.5s;
-            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+            box-shadow: rgba(250, 249, 249, 0.05) 0px 6px 24pxrgba(253, 251, 251, 0.08) 0px 0px 0px 1px;
         }
         .file1{
             width:40%;
@@ -1446,9 +1444,8 @@ input[type=text] {
                 display: inline-block;
                 font-size: 15px;
                 text-align: center;
-                color: rgb(205, 31, 191);;
-                border-top: 4px solid rgb(253, 251, 251);
-            
+                color: #E11299;
+                border-top: 4px solid #E11299;
             }
             #menu li{
                 font-size: 15px;
@@ -1505,7 +1502,7 @@ input[type=text] {
             #roomvid {
                 width: 100%;
                 height: 250px;
-                border-top: 4px solid rgb(15, 15, 15);
+                border-top: 4px solid #E11299;
                 background-color: #bde0fe;
             }
             #room {
@@ -1514,7 +1511,7 @@ input[type=text] {
                 float: left;
                 display: flex; 
                 background-color: #bde0fe;
-                color: white;
+                color: #E11299;
             }
             #roomvids {
                 width: 54%;
@@ -1534,7 +1531,7 @@ input[type=text] {
                     margin-bottom: 10px;
                     position:relative;
                     float: left;
-                    border-top: 4px solid rgb(252, 250, 250);
+                    border-top: 4px solid #E11299;
                     background-color: #bde0fe;
                 }
                 #roompic{
@@ -1568,7 +1565,7 @@ input[type=text] {
                     float: right;
                     font-size: 20px;
                     position: relative;
-                    border-top: 4px solid rgb(246, 242, 242);
+                    border-top: 4px solid #E11299;
                     background-color: #bde0fe;
         
                 }
@@ -1576,7 +1573,7 @@ input[type=text] {
             #barvid {
                 width: 98%;
                 height: 450px;
-                border-top: 4px solid white;
+                border-top: 4px solid #E11299;
                 background-color: #bde0fe;
             }
             #barvids {
@@ -1592,9 +1589,9 @@ input[type=text] {
                 height: 250px;
                 float: left;
                 font-size: 20px;
-                color: blueviolet;
+                color: #E11299;
                 position: relative;
-                border-top: 4px solid rgb(246, 242, 242);
+                border-top: 4px solid #E11299;
                 background-color: #bde0fe;
                 padding-bottom: 20px;
         
@@ -1617,7 +1614,7 @@ input[type=text] {
                 background-position: center;
                 background-size: cover;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
         
@@ -1632,7 +1629,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery3{
@@ -1646,7 +1643,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery4{
@@ -1660,7 +1657,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery5{
@@ -1674,7 +1671,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
         
@@ -1689,7 +1686,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery7{
@@ -1703,7 +1700,7 @@ input[type=text] {
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery8{
@@ -1715,9 +1712,8 @@ input[type=text] {
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
-                
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery9{
@@ -1729,9 +1725,8 @@ input[type=text] {
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
-                
                 transition: transform 0.5s;
-                border: 2px solid white;
+                border: 2px solid #E11299;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #menu {
@@ -1744,7 +1739,7 @@ input[type=text] {
                 font-size: 10px;
                 text-align: center;
                 color: rgb(205, 31, 191);;
-                border-top: 4px solid rgb(253, 251, 251);
+                border-top: 4px solid #E11299;
             
             }
             #menu h6{
@@ -1776,8 +1771,8 @@ input[type=text] {
             font-size: 30px;
             text-justify: auto;
             width: 80%;
-            color: rgb(255, 215, 0);
-            border-top: 4px solid rgb(252, 250, 250);
+            color: #E11299;
+            border-top: 4px solid #E11299;
             background-color: #bde0fe;
             margin-top: 20px;
             
@@ -1803,7 +1798,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=email] {
@@ -1811,7 +1806,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=address] {
@@ -1819,7 +1814,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=tel] {
@@ -1827,7 +1822,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=date] {
@@ -1835,7 +1830,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[type=password] {
@@ -1843,7 +1838,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           input[select-name=stage] {
@@ -1851,21 +1846,21 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
         
           }
           .Reset {
                 color: rgb(213, 222, 225);
                 background-color: rgb(237, 48, 48);
                 font-size: 30px;
-                border: 4px solid rgb(255, 215, 0);
+                border: 4px solid #E11299;
                 padding: 4px;        
                     }
           .Submit {
             color: rgb(213, 222, 225);
             background-color: rgb(12, 157, 113);
             font-size: 30px;
-            border: 4px solid rgb(255, 215, 0);
+            border: 4px solid #E11299;
             padding: 4px;
                  }
             #stage {
@@ -1873,13 +1868,13 @@ input[type=text] {
                 padding: 12px 20px;
                 margin: 8px 0;
                 box-sizing: border-box;
-                border: 4px solid rgb(255, 215, 0);
+                border: 4px solid #E11299;
             }
             #room h3{
                 font-size: 10px;
                 text-align: left;
                 margin: 10px 10px;
-                color: blueviolet;
+                color: #E11299;
             }
             #room li {
                 font-size: 10px;
@@ -1889,7 +1884,7 @@ input[type=text] {
             #barvid {
                 width: 98%;
                 height: 250px;
-                border-top: 4px solid white;
+                border-top: 4px solid #E11299;
                 background-color: #bde0fe;
             }
             #barvids {
@@ -1909,7 +1904,7 @@ input[type=text] {
             text-align: center;
             background-color: #bde0fe;
             float: left;
-            border-top: 4px solid black;
+            border-top: 4px solid #E11299;
         }
         .social-bottom{
             display: flex;
@@ -1925,7 +1920,7 @@ input[type=text] {
         }
         
         .social-bottom > p {
-            color: rgb(58, 8, 238);
+            color: #E11299;
             font-size: 10px;
             text-align: right;
         }
