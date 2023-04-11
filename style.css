@@ -772,13 +772,7 @@ input[type=text] {
                 margin-bottom: 20px;
                 position:relative;
                 display: inline-block;
-                text-align: center;
-                color: rgb(0, 0, 0);
-                text-shadow: -1px 1px 0 #000,
-                1px 1px 0 #000,
-               1px -1px 0 #000,
-              -1px -1px 0 #000;
-            
+           
             }
 
             #breakf-pix1 {
@@ -786,10 +780,6 @@ input[type=text] {
                 background-size: cover;
                 width: 23%;
                 height: 250px;
-                position:relative;
-                display: inline-flex;
-                margin-right: 5px;
-                text-align: center;
                 font-size: 15px;
                 
                 
@@ -880,9 +870,7 @@ input[type=text] {
                 list-style-type: none;
         
             }
-            #menu :hover {
-                transform: translateY(-10px);
-            }
+
             /*rooms list*/
             #roomvid {
                 width: 100%;
@@ -896,7 +884,7 @@ input[type=text] {
                 width: 50%;
                 height: 250px;
                 font-size: 15px;
-                padding-bottom: 6rem;
+                padding-bottom: 7rem;
                 
             }
 
@@ -907,17 +895,25 @@ input[type=text] {
                 position: relative;
                 background-size: cover;
                 background-color: #bde0fe;
+                padding-top: 25px;
             }
             #room h3{
-                font-size: 15px;
+                font-size: 16px;
             }
             #room li {
-                font-size: 15px;
+                font-size: 16px;
             }
+            
             /*gym section*/
+            #roompic{
+                height: 400px;
+                
+                
+
+            }
                 #gympic {
                     width: 49%;
-                    height: 500px;
+                    height: 400px;
                     padding-left: 5px;
                     padding-right: 5px;
                     margin-top: 10px;
@@ -931,7 +927,7 @@ input[type=text] {
                     background: url(image/gym3.jpeg) no-repeat center center;
                     background-size: cover;
                     width: 25%;
-                    height: 450px;
+                    height: 400px;
                     position:relative;
                     display: inline-flex;
                     margin-right: 5px;
@@ -941,7 +937,7 @@ input[type=text] {
                     background: url(image/gym7.jpeg) no-repeat center center;
                     background-size: cover;
                     width: 25%;
-                    height: 450px;
+                    height: 400px;
                     position: relative;
                     display: inline-flex;
                     margin-right: 10px;
@@ -950,33 +946,36 @@ input[type=text] {
                 }
                 #gymtext{
                     width: 49%;
-                    height: 450px;
+                    height: 400px;
                     float: right;
                     font-size: 20px;
                     position: relative;
                     border-top: 4px solid #fafcfb;
                     background-color: #bde0fe;
                     padding-left: 5px;
+
         
                 }
             /*bar section*/
             #barvid {
                 width: 99%;
-                height: 450px;
+                height: 430px;
                 border-top: 4px solid #fafcfb;
                 background-color: #bde0fe;
+                padding-bottom: 1px;
             }
             #barvids {
                 width: 47%;
-                height: 450px;
+                height: 250px;
                 float: right;
                 position: relative;
                 background-size: cover;
                 background-color: #bde0fe;
+                padding-top: 30px;
             }
             #bartext{
                 width: 49%;
-                height: 450px;
+                height: 430px;
                 float: left;
                 font-size: 20px;
                 color: rgb(0, 0, 0);
@@ -1050,12 +1049,13 @@ input[type=text] {
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery8{
-                background-image: url(image/wine6.avif);
+                background-image: url(image/wine1.avif);
                 width: 45%;
                 height: 300px;
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+                
             }
             #gallery9{
                 background-image: url(image/yoga.jpeg);
@@ -1074,8 +1074,8 @@ input[type=text] {
                 display: inline-block;
                 font-size: 10px;
                 text-align: center;
-                color: #E11299;
-                border-top: 4px solid #E11299;
+                color: rgb(0, 0, 0);
+                border-top: 4px solid #fafcfb;
             
             }
             #menu h6{
@@ -1089,8 +1089,8 @@ input[type=text] {
             text-justify: auto;
             padding-left: 30px;
             width: 80%;
-            color: rgb(255, 215, 0);
-            border-top: 4px solid #E11299;
+            color: rgb(0, 0, 0);
+            border-top: 4px solid #fafcfb;
             background-color: #bde0fe;
             margin-top: 20px;
             
@@ -1119,7 +1119,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);
         
           }
           input[type=email] {
@@ -1127,7 +1127,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);;
         
           }
           input[type=address] {
@@ -1135,7 +1135,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);;
         
           }
           input[type=tel] {
@@ -1143,7 +1143,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);;
         
           }
           input[type=date] {
@@ -1151,7 +1151,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);
         
           }
           input[type=password] {
@@ -1159,7 +1159,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);
         
           }
           input[select-name=stage] {
@@ -1167,21 +1167,21 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);
         
           }
           .Reset {
                 color: rgb(213, 222, 225);
-                background-color: rgb(237, 48, 48);
+                background-color: rgb(255, 0, 0);
                 font-size: 30px;
-                border: 4px solid #E11299;
+                border: 4px solid rgb(0, 0, 0);
                 padding: 4px;        
                     }
           .Submit {
             color: rgb(213, 222, 225);
             background-color: rgb(12, 157, 113);
             font-size: 30px;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(0, 0, 0);
             padding: 4px;
                  }
             #stage {
@@ -1189,7 +1189,7 @@ input[type=text] {
                 padding: 12px 20px;
                 margin: 8px 0;
                 box-sizing: border-box;
-                border: 4px solid #E11299;
+                border: 4px solid rgb(0, 0, 0);
             }
 
             
@@ -1202,7 +1202,7 @@ input[type=text] {
             text-align: center;
             background-color: #bde0fe;
             float: left;
-            border-top: 4px solid #E11299;
+            border-top: 4px solid #fafcfb;
         }
         .social-bottom{
             display: flex;
@@ -1218,7 +1218,7 @@ input[type=text] {
         }
         
         .social-bottom > p {
-            color: #E11299;
+            color: rgb(0, 0, 0);
             font-size: 15px;
             text-align: right;
         }
