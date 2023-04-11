@@ -405,6 +405,7 @@ nav ul li a{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+        padding-bottom: 20rem;
 
     }
 
@@ -519,7 +520,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
 
   }
   input[type=email] {
@@ -527,7 +528,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
 
   }
   input[type=address] {
@@ -535,7 +536,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
 
   }
   input[type=tel] {
@@ -543,7 +544,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
 
   }
   input[type=date] {
@@ -551,7 +552,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
 
   }
   input[type=password] {
@@ -559,7 +560,7 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
 
   }
   input[select-name=stage] {
@@ -567,21 +568,21 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
 
   }
   .Reset {
         color: black;
         background-color: rgb(237, 48, 48);
         font-size: 30px;
-        border: 4px solid #E11299;
+        border: 4px solid rgb(0, 0, 0);
         padding: 4px;        
             }
   .Submit {
     color: black;
     background-color: rgb(12, 157, 113);
     font-size: 30px;
-    border: 4px solid #E11299;
+    border: 4px solid rgb(0, 0, 0);
     padding: 4px;
          }
     #stage {
@@ -589,7 +590,7 @@ input[type=text] {
         padding: 12px 20px;
         margin: 8px 0;
         box-sizing: border-box;
-        border: 4px solid #E11299;
+        border: 4px solid rgb(0, 0, 0);
     }
     /*footer*/
 
@@ -599,7 +600,7 @@ input[type=text] {
     text-align: center;
     background-color: #bde0fe;
     float: left;
-    border-top: 4px solid #FCFAFB;
+    border-top: 4px solid #fafcfb;
     }
     .social-bottom{
     display: flex;
@@ -628,7 +629,7 @@ input[type=text] {
     .house{
         width: 98%;
         height: 98vh;
-        color: rgb(255, 0, 0)9;
+        color: rgb(255, 0, 0);
         background-color: #bde0fe;
         background-image: url(image/table.avif);
         background-position: center;
@@ -687,7 +688,7 @@ input[type=text] {
             font-size: 70px;
         }
         .col p{
-            color: #E11299;
+            color: rgb(255, 0, 0);
             font-size: 20px;
             line-height: 12px;
             text-align: left;
@@ -793,6 +794,20 @@ input[type=text] {
                 
                 
             }
+            #breakf-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #breakf-menu > * {
+                list-style-type: none;
+        
+            }
             #lunch-pix2 {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
@@ -804,6 +819,20 @@ input[type=text] {
                 margin-right: 5px;
                 font-size: 15px;
             }
+            #lunch-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #lunch-menu > * {
+                list-style-type: none;
+        
+            }
             #dinner-pix3 {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
@@ -814,6 +843,20 @@ input[type=text] {
                 margin-right: 5px;
                 font-size: 15px;
             }
+            #dinner-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #dinner-menu > * {
+                list-style-type: none;
+        
+            }
             #desert-pix4 {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
@@ -822,6 +865,20 @@ input[type=text] {
                 position: relative;
                 display: inline-flex;
                 font-size: 15px;
+            }
+            #desert-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #desert-menu > * {
+                list-style-type: none;
+        
             }
             #menu :hover {
                 transform: translateY(-10px);
@@ -838,11 +895,8 @@ input[type=text] {
             #room {
                 width: 50%;
                 height: 250px;
-                float: left;
-                display: flex; 
-                background-color: #bde0fe;
-                color: rgb(0, 0, 0);
                 font-size: 15px;
+                padding-bottom: 6rem;
                 
             }
 
@@ -854,6 +908,12 @@ input[type=text] {
                 background-size: cover;
                 background-color: #bde0fe;
             }
+            #room h3{
+                font-size: 15px;
+            }
+            #room li {
+                font-size: 15px;
+            }
             /*gym section*/
                 #gympic {
                     width: 49%;
@@ -861,7 +921,7 @@ input[type=text] {
                     padding-left: 5px;
                     padding-right: 5px;
                     margin-top: 10px;
-                    margin-bottom: 10px;
+                    margin-bottom: 5px;
                     position:relative;
                     float: left;
                     border-top: 4px solid #fafcfb;
@@ -921,32 +981,21 @@ input[type=text] {
                 font-size: 20px;
                 color: rgb(0, 0, 0);
                 position: relative;
-                border-top: 4px solid #fafcfb;
                 background-color: #bde0fe;
                 padding-left: 10px;
+                border-top: none;
         
             }
             /*gallery section*/
-            #gallary{
-                width: 100%;
-                height: auto;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-around;
+
+            #gallery{
+                padding-bottom: 40rem;
             }
-            
         
             #gallery1{
                 background-image: url(image/reception.jpeg);
                 width: 45%;
                 height: 300px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -956,13 +1005,6 @@ input[type=text] {
                 background-image: url(image/recep2.jpeg);
                 width: 45%;
                 height: 300px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -971,13 +1013,6 @@ input[type=text] {
                 background-image: url(image/happy.jpeg);
                 width: 45%;
                 height: 300px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -986,13 +1021,6 @@ input[type=text] {
                 background-image: url(image/room=5.jpeg);
                 width: 45%;
                 height: 300px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -1001,13 +1029,6 @@ input[type=text] {
                 background-image: url(image/masage.jpeg);
                 width: 45%;
                 height: 300px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -1017,13 +1038,6 @@ input[type=text] {
                 background-image: url(image/room4.jpeg);
                 width: 45%;
                 height: 300px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -1032,7 +1046,6 @@ input[type=text] {
                 background-image: url(image/bar1.jpeg);
                 width: 45%;
                 height: 300px;
-
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1040,7 +1053,6 @@ input[type=text] {
                 background-image: url(image/wine6.avif);
                 width: 45%;
                 height: 300px;
-
                 transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
@@ -1049,15 +1061,8 @@ input[type=text] {
                 background-image: url(image/yoga.jpeg);
                 width: 45%;
                 height: 300px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #menu {
@@ -1186,17 +1191,7 @@ input[type=text] {
                 box-sizing: border-box;
                 border: 4px solid #E11299;
             }
-            #room h3{
-                font-size: 10px;
-                text-align: left;
-                margin: 10px 10px;
-                color: blueviolet;
-            }
-            #room li {
-                font-size: 10px;
-                text-align: left;
 
-            }
             
             
          /*footer*/
