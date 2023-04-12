@@ -1366,15 +1366,16 @@ input[type=text] {
             }
             #menu {
                 width: 100%;
-                height: 200px;
+                height: 100vh;
                 margin-top: 40px;
                 margin-bottom: 20px;
                 position:relative;
-                display: inline-block;
+                flex-direction: column;
+                display: flex;
                 font-size: 15px;
                 text-align: center;
                 color: rgb(255, 0, 0);
-                border-top: 4px solid #E11299;
+                border-top: 4px solid #fafcfb;
             }
             #menu li{
                 font-size: 15px;
@@ -1388,7 +1389,7 @@ input[type=text] {
             #breakf-pix1 {
                 background: url(image/food.avif) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 80%;
                 height: 200px;
                 position:relative;
                 display: inline-flex;
@@ -1400,7 +1401,7 @@ input[type=text] {
             #lunch-pix2 {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 80%;
                 height: 200px;
                 position: relative;
                 display: inline-flex;
@@ -1410,7 +1411,7 @@ input[type=text] {
             #dinner-pix3 {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 80%;
                 height: 200px;
                 position: relative;
                 display: inline-flex;
@@ -1419,7 +1420,7 @@ input[type=text] {
             #desert-pix4 {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 22%;
+                width: 80%;
                 height: 200px;
                 position: relative;
                 display: inline-flex;
@@ -1430,29 +1431,43 @@ input[type=text] {
             /*rooms list*/
             #roomvid {
                 width: 100%;
-                height: 250px;
-                border-top: 4px solid #E11299;
+                height: 300px;
+                display: flex;
+                flex-direction: column;
+                border-top: 4px solid #fcfafb;
                 background-color: #bde0fe;
+                border-bottom: none;
+                margin-bottom: 50px;
+                padding-bottom: 2rem;
+                
             }
             #room {
-                width: 45%;
-                height: 250px;
-                float: left;
-                display: flex; 
+                width: 100%;
+                height: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                float: none;
                 background-color: #bde0fe;
-                color: #E11299;
+                color: rgb(0, 0, 0);
+                border-top: none;
+                padding-top: 1.4rem;
+
+            }
+           
+
             }
             #roomvids {
-                width: 54%;
+                width: 100%;
                 height: 250px;
-                float: right;
+                float: none;
                 position: relative;
                 background-size: cover;
                 background-color: #bde0fe;
             }
             /*gym section*/
                 #gympic {
-                    width: 49%;
+                    width: 100%;
                     height: 250px;
                     padding-left: 5px;
                     padding-right: 5px;
@@ -1460,53 +1475,53 @@ input[type=text] {
                     margin-bottom: 10px;
                     position:relative;
                     float: left;
-                    border-top: 4px solid #E11299;
+                    border-top: 4px solid #fafcfb;
                     background-color: #bde0fe;
                 }
                 #roompic{
                     width: 99%;
-                    height: 250px;
+                    height: 750px;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: space-between;
                 }
                 #gym-pix1 {
                     background: url(image/gym3.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 24%;
+                    width: 100%;
                     height: 250px;
                     position:relative;
-                    display: inline-flex;
                     margin-right: 5px;
                     background-color: #bde0fe;
                 }
                 #gym-pix2 {
                     background: url(image/gym7.jpeg) no-repeat center center;
                     background-size: cover;
-                    width: 24%;
+                    width: 100%;
                     height: 250px;
-                    position: relative;
-                    display: inline-flex;
-                    margin-right: 10px;
-                    margin-right: 5px;
+                    display: flex
                     background-color: #bde0fe;
                 }
                 #gymtext{
-                    width: 49%;
+                    width: 100%;
                     height: 250px;
-                    float: right;
+                    float: none;
                     font-size: 20px;
                     position: relative;
-                    border-top: 4px solid #E11299;
+                    border-top: 4px solid #fafcfb;
                     background-color: #bde0fe;
         
                 }
             /*bar section*/
             #barvid {
-                width: 98%;
-                height: 450px;
-                border-top: 4px solid #E11299;
-                background-color: #bde0fe;
+                width: 99%;
+                height: 500px;
+                display: flex;
+                flex-direction: column-reverse;
+                justify-content: center;
             }
             #barvids {
-                width: 54%;
+                width: 100%;
                 height: 250px;
                 float: right;
                 position: relative;
@@ -1514,15 +1529,14 @@ input[type=text] {
                 background-color: #bde0fe;
             }
             #bartext{
-                width: 45%;
-                height: 250px;
+                width: 100%;
+                height: 150px;
                 float: left;
                 font-size: 20px;
-                color: #E11299;
+                color: rgb(0, 0, 0);
                 position: relative;
-                border-top: 4px solid #E11299;
+                border-top: none;
                 background-color: #bde0fe;
-                padding-bottom: 20px;
         
             }
             /*gallery section*/
@@ -1530,132 +1544,133 @@ input[type=text] {
                 width: 100%;
                 height: auto;
                 display: flex;
+                flex-direction: row;
+                justify-content: space-around;
             
             }
         
             #gallery1{
                 background-image: url(image/reception.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
-                padding: 5px 5px;
+                padding: 0px 0px;
                 box-sizing: border-box;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
         
             #gallery2{
                 background-image: url(image/recep2.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
-                padding: 5px 5px;
+                padding: 0px 0px;
                 box-sizing: border-box;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery3{
                 background-image: url(image/happy.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
-                padding: 5px 5px;
+                padding: 0px 0px;
                 box-sizing: border-box;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery4{
                 background-image: url(image/room=5.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
-                padding: 5px 5px;
+                padding: 0px 0px;
                 box-sizing: border-box;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery5{
                 background-image: url(image/masage.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
-                padding: 5px 5px;
                 box-sizing: border-box;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
         
             #gallery6{
                 background-image: url(image/room4.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
-                padding: 5px 5px;
+                margin: 0px 0px;
                 box-sizing: border-box;
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery7{
                 background-image: url(image/bar1.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                margin: 5px 5px;
+                margin: 0px 0px;
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery8{
                 background-image: url(image/wine6.avif);
-                width: 45%;
+                width: 100%;
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                margin: 5px 5px;
+                margin: 0px 0px;
                 background-position: center;
                 background-size: cover;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #gallery9{
                 background-image: url(image/yoga.jpeg);
-                width: 45%;
+                width: 100%;
                 height: 300px;
                 padding: 5px 5px;
                 box-sizing: border-box;
-                margin: 5px 5px;
+                margin: 0px 0px;
                 background-position: center;
                 background-size: cover;
                 transition: transform 0.5s;
-                border: 2px solid #E11299;
+                border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
             #menu {
@@ -1703,13 +1718,14 @@ input[type=text] {
             color: #E11299;
             border-top: 4px solid #E11299;
             background-color: #bde0fe;
-            margin-top: 20px;
+            padding-top: 75rem;
             
         }
         #reghead {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             background-color: #bde0fe;
+            font-size: 20px;
             
         }
         #regform{
@@ -1810,20 +1826,7 @@ input[type=text] {
                 text-align: left;
 
             }
-            #barvid {
-                width: 98%;
-                height: 250px;
-                border-top: 4px solid #E11299;
-                background-color: #bde0fe;
-            }
-            #barvids {
-                width: 45%;
-                height: 250px;
-                float: right;
-                position: relative;
-                background-size: cover;
-                background-color: #bde0fe;
-            }
+
             
          /*footer*/
 
