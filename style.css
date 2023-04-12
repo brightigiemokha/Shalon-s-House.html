@@ -175,7 +175,7 @@ nav ul li a{
     #breakf-pix1 {
         background: url(image/food.avif) no-repeat center center;
         background-size: cover;
-        width: 22%;
+        width: 24%;
         height: 450px;
         position:relative;
         display: inline-flex;
@@ -189,7 +189,7 @@ nav ul li a{
         justify-content: center;
         width: 50%;
         height: 60% ;
-        background-color: #bde0fe;
+        background-color: #fafcfb;
         opacity: 0.7;
 
     }
@@ -202,7 +202,7 @@ nav ul li a{
     #lunch-pix2 {
         background: url(image/food1.jpeg) no-repeat center center;
         background-size: cover;
-        width: 22%;
+        width: 24%;
         height: 450px;
         position: relative;
         display: inline-flex;
@@ -214,7 +214,7 @@ nav ul li a{
         justify-content: center;
         width: 50%;
         height: 60% ;
-        background-color: #bde0fe;
+        background-color: #fafcfb;
         opacity: 0.7;
     }
 
@@ -225,7 +225,7 @@ nav ul li a{
     #dinner-pix3 {
         background: url(image/food3.jpeg) no-repeat center center;
         background-size: cover;
-        width: 22%;
+        width: 24%;
         height: 450px;
         position: relative;
         display: inline-flex;
@@ -236,7 +236,7 @@ nav ul li a{
         justify-content: center;
         width: 50%;
         height: 60% ;
-        background-color: #bde0fe;
+        background-color: #fafcfb;
         opacity: 0.7;
     }
 
@@ -247,7 +247,7 @@ nav ul li a{
     #desert-pix4 {
         background: url(image/food5.jpeg) no-repeat center center;
         background-size: cover;
-        width: 22%;
+        width: 24%;
         height: 450px;
         position: relative;
         display: inline-flex;
@@ -257,7 +257,7 @@ nav ul li a{
         justify-content: center;
         width: 50%;
         height: 60% ;
-        background-color: #bde0fe;
+        background-color: #fafcfb;
         opacity: 0.7;
     }
 
@@ -780,7 +780,7 @@ input[type=text] {
                 background-size: cover;
                 width: 23%;
                 height: 250px;
-                font-size: 15px;
+                font-size: 16px;
                 
                 
             }
@@ -807,7 +807,7 @@ input[type=text] {
                 display: inline-flex;
                 margin-right: 10px;
                 margin-right: 5px;
-                font-size: 15px;
+                font-size: 16px;
             }
             #lunch-menu {
                 display: flex;
@@ -831,7 +831,7 @@ input[type=text] {
                 position: relative;
                 display: inline-flex;
                 margin-right: 5px;
-                font-size: 15px;
+                font-size: 16px;
             }
             #dinner-menu {
                 display: flex;
@@ -854,7 +854,7 @@ input[type=text] {
                 height: 250px;
                 position: relative;
                 display: inline-flex;
-                font-size: 15px;
+                font-size: 16px;
             }
             #desert-menu {
                 display: flex;
@@ -1233,11 +1233,6 @@ input[type=text] {
     .house{
         width: 98%;
         height: 98vh;
-        color: #E11299;
-        background-color: #bde0fe;
-        background-image: url(image/table.avif);
-        background-position: center;
-        background-size: cover;
         padding-left: 2%;
         padding-right: 2%;
         box-sizing: border-box;
@@ -1271,11 +1266,11 @@ input[type=text] {
     }
     nav ul li a{
         text-decoration: none;
-        color: #E11299;
+        color: rgb(0, 0, 0);
         font-size: 18px;
     }
     .navbar :hover {
-        color: red;
+        color: #fafcfb;
         
     }
     /*heading*/
@@ -1288,23 +1283,23 @@ input[type=text] {
             flex-basis: 50%;
         }
         .col h1{
-            color: #E11299;
+            color: rgb(255, 0, 0);
             font-size: 38px;
         }
         .col p{
-            color: #E11299;
+            color: rgb(255, 0, 0);
             font-size: 15px;
             line-height: 12px;
             text-align: left;
         
         }
         h1{
-            color: #E11299;
+            color: rgb(255, 0, 0);
             font-size: 40px;
             text-align: center;
         }
         p{
-            color: #E11299;
+            color: rgb(0, 0, 0);
             font-size: 13px;
             line-height:normal;
             text-align: left;
@@ -1314,7 +1309,7 @@ input[type=text] {
             padding: 7px 0;
             font-size: 15px;
             width: 100px;
-            color:#E11299;
+            color:rgb(0, 0, 0);
             border: 0;
             border-radius: 30%;
             outline: none;
@@ -1356,7 +1351,7 @@ input[type=text] {
         .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+            gap: 1rem;
         }
          
          
@@ -1378,7 +1373,7 @@ input[type=text] {
                 display: inline-block;
                 font-size: 15px;
                 text-align: center;
-                color: #E11299;
+                color: rgb(255, 0, 0);
                 border-top: 4px solid #E11299;
             }
             #menu li{
