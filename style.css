@@ -621,9 +621,605 @@ input[type=text] {
     text-align: right;
     }
 
+@media only screen and (max-width: 1400px) {
+    .house{
+        width: 98%;
+        height: 98vh;
+        color: rgb(255, 0, 0);
+        background-color: #bde0fe;
+        background-image: url(image/table.avif);
+        background-position: center;
+        background-size: cover;
+        padding-left: 2%;
+        padding-right: 2%;
+        box-sizing: border-box;
+        
+    }
+    /*navigation links heading and logo*/
+    .navbar {
+        height: 10%;
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+    }
+    .logo {
+        width: 15rem;
+        background-color: #bde0fe;
+        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+        
+    }
+    .menu-icon {
+        width: 20px;
+        margin-left: 30px;
+    }
+    nav {
+        flex: 1;
+        text-align: right;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 28px;
+    }
+    .navbar :hover {
+        color: #fafcfb;
+        
+    }
+    /*heading*/
+    .row {
+        display: flex;
+        height: 88%;
+        align-items: center;
+        }
+        .col{
+            display: flex;
+            
+        }
+        .col h1{
+            font-size: 70px;
+        }
+        .col p{
+            color: rgb(255, 0, 0);
+            font-size: 20px;
+            line-height: 12px;
+            text-align: left;
+            margin-left: 30px;
+        }
+        h1{
+            color: rgb(255, 0, 0);
+            font-size: 80px;
+        }
+        p{
+            color: rgb(0, 0, 0);
+            font-size: 20px;
+            line-height: normal;
+            text-align: left;
+        
+        }
+        
+        button {
+            padding: 7px 0;
+            font-size: 20px;
+            width: 150px;
+            color:rgb(0, 0, 0);
+            border: 0;
+            border-radius: 30%;
+            outline: none;
+            margin-top: 15px;
+            margin-left: 4rem;
+    
+        }
+        /*for the picture menus*/
+        .file{
+            width: 100%;
+            aspect-ratio: 1.1;
+            display: inline-block;
+            border-radius: 10px;
+            padding: 5px 10px;
+            box-sizing: border-box;
+            margin: 5px 5px;
+            background-position: center;
+            background-size: cover;
+            font-size: 30px;
+            transition: transform 0.5s;
+            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        }
+        .file1{
+            width:40%;
+            height: 200px;
+         }
+         .file2{
+            width:40%;
+            height: 200px;
+         }
+         .file3{
+            width:40%;
+            height: 200px;
+         }
+         .file4{
+            width:40%;
+            height: 200px;
+         }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        }
+         
+         
+        .menuhouse{
+            width: 98%;
+            height: 90vh;
+            background-color: #bde0fe;
+            padding-left: 2%;
+            padding-right: 2%;
+            box-sizing: border-box;
+        
+            }
+            #menu {
+                width: 100%;
+                height: 200px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                position:relative;
+                display: inline-block;
+           
+            }
 
+            #breakf-pix1 {
+                background: url(image/food.avif) no-repeat center center;
+                background-size: cover;
+                width: 23%;
+                height: 250px;
+                font-size: 16px;
+                
+                
+            }
+            #breakf-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #breakf-menu > * {
+                list-style-type: none;
+        
+            }
+            #lunch-pix2 {
+                background: url(image/food1.jpeg) no-repeat center center;
+                background-size: cover;
+                width: 23%;
+                height: 250px;
+                position: relative;
+                display: inline-flex;
+                margin-right: 10px;
+                margin-right: 5px;
+                font-size: 16px;
+            }
+            #lunch-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #lunch-menu > * {
+                list-style-type: none;
+        
+            }
+            #dinner-pix3 {
+                background: url(image/food3.jpeg) no-repeat center center;
+                background-size: cover;
+                width: 23%;
+                height: 250px;
+                position: relative;
+                display: inline-flex;
+                margin-right: 5px;
+                font-size: 16px;
+            }
+            #dinner-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #dinner-menu > * {
+                list-style-type: none;
+        
+            }
+            #desert-pix4 {
+                background: url(image/food5.jpeg) no-repeat center center;
+                background-size: cover;
+                width: 23%;
+                height: 250px;
+                position: relative;
+                display: inline-flex;
+                font-size: 16px;
+            }
+            #desert-menu {
+                display: flex;
+                justify-content: center;
+                width: 80%;
+                height: 60% ;
+                background-color: #bde0fe;
+                opacity: 0.7;
+        
+            }
+        
+            #desert-menu > * {
+                list-style-type: none;
+        
+            }
 
+            /*rooms list*/
+            #roomvid {
+                width: 100%;
+                height: 250px;
+                border-top: 4px solid #fafcfb;
+                background-color: #bde0fe;
+                
+            }
 
+            #room {
+                width: 50%;
+                height: 250px;
+                font-size: 15px;
+                padding-bottom: 7rem;
+                
+            }
+
+            #roomvids {
+                width: 45%;
+                height: 250px;
+                float: right;
+                position: relative;
+                background-size: cover;
+                background-color: #bde0fe;
+                padding-top: 25px;
+            }
+            #room h3{
+                font-size: 16px;
+            }
+            #room li {
+                font-size: 16px;
+            }
+            
+            /*gym section*/
+            #roompic{
+                height: 400px;
+                
+                
+
+            }
+                #gympic {
+                    width: 49%;
+                    height: 400px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                    position:relative;
+                    float: left;
+                    border-top: 4px solid #fafcfb;
+                    background-color: #bde0fe;
+                }
+                #gym-pix1 {
+                    background: url(image/gym3.jpeg) no-repeat center center;
+                    background-size: cover;
+                    width: 25%;
+                    height: 400px;
+                    position:relative;
+                    display: inline-flex;
+                    margin-right: 5px;
+                    background-color: #bde0fe;
+                }
+                #gym-pix2 {
+                    background: url(image/gym7.jpeg) no-repeat center center;
+                    background-size: cover;
+                    width: 25%;
+                    height: 400px;
+                    position: relative;
+                    display: inline-flex;
+                    margin-right: 10px;
+                    margin-right: 5px;
+                    background-color: #bde0fe;
+                }
+                #gymtext{
+                    width: 49%;
+                    height: 400px;
+                    float: right;
+                    font-size: 20px;
+                    position: relative;
+                    border-top: 4px solid #fafcfb;
+                    background-color: #bde0fe;
+                    padding-left: 5px;
+
+        
+                }
+            /*bar section*/
+            #barvid {
+                width: 99%;
+                height: 430px;
+                border-top: 4px solid #fafcfb;
+                background-color: #bde0fe;
+                padding-bottom: 1px;
+            }
+            #barvids {
+                width: 47%;
+                height: 250px;
+                float: right;
+                position: relative;
+                background-size: cover;
+                background-color: #bde0fe;
+                padding-top: 30px;
+            }
+            #bartext{
+                width: 49%;
+                height: 430px;
+                float: left;
+                font-size: 20px;
+                color: rgb(0, 0, 0);
+                position: relative;
+                background-color: #bde0fe;
+                padding-left: 10px;
+                border-top: none;
+        
+            }
+            /*gallery section*/
+
+            #gallery{
+                padding-bottom: 40rem;
+            }
+        
+            #gallery1{
+                background-image: url(image/reception.jpeg);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+        
+            #gallery2{
+                background-image: url(image/recep2.jpeg);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery3{
+                background-image: url(image/happy.jpeg);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery4{
+                background-image: url(image/room=5.jpeg);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery5{
+                background-image: url(image/masage.jpeg);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+        
+            #gallery6{
+                background-image: url(image/room4.jpeg);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery7{
+                background-image: url(image/bar1.jpeg);
+                width: 45%;
+                height: 300px;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #gallery8{
+                background-image: url(image/wine1.avif);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+                
+            }
+            #gallery9{
+                background-image: url(image/yoga.jpeg);
+                width: 45%;
+                height: 300px;
+                transition: transform 0.5s;
+                border: 2px solid #fafcfb;
+                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
+            }
+            #menu {
+                width: 100%;
+                height: 250px;
+                margin-top: 80px;
+                margin-bottom: 40px;
+                position:relative;
+                display: inline-block;
+                font-size: 10px;
+                text-align: center;
+                color: rgb(0, 0, 0);
+                border-top: 4px solid #fafcfb;
+            
+            }
+            #menu h6{
+                font-size: 15px;
+            }
+            
+            
+        /*booking form*/
+        #regform{
+            font-size: 30px;
+            text-justify: auto;
+            padding-left: 30px;
+            width: 80%;
+            color: rgb(0, 0, 0);
+            border-top: 4px solid #fafcfb;
+            background-color: #bde0fe;
+            margin-top: 20px;
+            
+        }
+        #reghead {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: #bde0fe;
+            font-size: 70px;
+        }
+        #reghead h1 {
+            font-size: 70px;
+        }
+        #regform{
+            margin: 40px 40px 40px 40px;
+        
+        }
+        #regform h1 {
+            font-size: 40px;
+            text-align: center;
+            text-decoration-line: underline;
+            right: 40px;
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(0, 0, 0);
+        
+          }
+          input[type=email] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(0, 0, 0);;
+        
+          }
+          input[type=address] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(0, 0, 0);;
+        
+          }
+          input[type=tel] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(0, 0, 0);;
+        
+          }
+          input[type=date] {
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(0, 0, 0);
+        
+          }
+          input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(0, 0, 0);
+        
+          }
+          input[select-name=stage] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(0, 0, 0);
+        
+          }
+          .Reset {
+                color: rgb(213, 222, 225);
+                background-color: rgb(255, 0, 0);
+                font-size: 30px;
+                border: 4px solid rgb(0, 0, 0);
+                padding: 4px;        
+                    }
+          .Submit {
+            color: rgb(213, 222, 225);
+            background-color: rgb(12, 157, 113);
+            font-size: 30px;
+            border: 4px solid rgb(0, 0, 0);
+            padding: 4px;
+                 }
+            #stage {
+                width: 50%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+                border: 4px solid rgb(0, 0, 0);
+            }
+
+            
+            
+         /*footer*/
+
+         .social-icon {
+            width: 100%;
+            height: 8rem;
+            text-align: center;
+            background-color: #bde0fe;
+            float: left;
+            border-top: 4px solid #fafcfb;
+        }
+        .social-bottom{
+            display: flex;
+            justify-content:center;
+        }
+        #social > a {
+            color: rgb(58, 8, 238);
+            text-decoration: none;
+            padding: 0 20px;
+            font-size: 4rem;
+            text-align: center;
+            margin-left: 8rem;
+        }
+        
+        .social-bottom > p {
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            text-align: right;
+        }
+
+}
 
 @media only screen and (max-width: 1400px) {
     .house{
@@ -1223,11 +1819,7 @@ input[type=text] {
             text-align: right;
         }
 
-
 }
-
-
-
 
 @media only screen and (max-width: 800px) {
     .house{
@@ -1366,15 +1958,13 @@ input[type=text] {
             }
             #menu {
                 width: 100%;
-                height: 100vh;
+                height: 200vh;
                 margin-top: 40px;
                 margin-bottom: 20px;
-                position:relative;
                 flex-direction: column;
                 display: flex;
                 font-size: 15px;
-                text-align: center;
-                color: rgb(255, 0, 0);
+                color: rgb(0, 0, 0);
                 border-top: 4px solid #fafcfb;
             }
             #menu li{
@@ -1389,44 +1979,32 @@ input[type=text] {
             #breakf-pix1 {
                 background: url(image/food.avif) no-repeat center center;
                 background-size: cover;
-                width: 80%;
-                height: 200px;
-                position:relative;
-                display: inline-flex;
-                margin-right: 5px;
-                text-align: center;
-                
-                
+                width: 100%;
+                height: 400px;
+
             }
             #lunch-pix2 {
                 background: url(image/food1.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 80%;
-                height: 200px;
-                position: relative;
-                display: inline-flex;
-                margin-right: 10px;
-                margin-right: 5px;
+                width: 100%;
+                height: 400px;
+
             }
             #dinner-pix3 {
                 background: url(image/food3.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 80%;
-                height: 200px;
-                position: relative;
-                display: inline-flex;
-                margin-right: 5px;
+                width: 100%;
+                height: 400px;
+
             }
             #desert-pix4 {
                 background: url(image/food5.jpeg) no-repeat center center;
                 background-size: cover;
-                width: 80%;
-                height: 200px;
-                position: relative;
-                display: inline-flex;
+                width: 100%;
+                height: 400px;
             }
             #menu :hover {
-                transform: translateY(-10px);
+                transform: none;
             }
             /*rooms list*/
             #roomvid {
@@ -1455,8 +2033,6 @@ input[type=text] {
 
             }
            
-
-            }
             #roomvids {
                 width: 100%;
                 height: 250px;
@@ -1499,7 +2075,7 @@ input[type=text] {
                     background-size: cover;
                     width: 100%;
                     height: 250px;
-                    display: flex
+                    display: flex;
                     background-color: #bde0fe;
                 }
                 #gymtext{
@@ -1673,50 +2249,15 @@ input[type=text] {
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
-            #menu {
-                width: 100%;
-                height: 250px;
-                margin-top: 80px;
-                margin-bottom: 40px;
-                position:relative;
-                display: inline-block;
-                font-size: 10px;
-                text-align: center;
-                color: rgb(205, 31, 191);;
-                border-top: 4px solid #E11299;
-            
-            }
-            #menu h6{
-                font-size: 10px;
-            }
-            #breakf-pix1 {
-                width: 22%;
-                height: 250px;
 
-            }
-            #lunch-pix2 {
-                width: 22%;
-                height: 250px;
-            }
-            #dinner-pix3 {
-                width: 22%;
-                height: 250px;
-            }
-            #desert-pix4 {
-
-                width: 22%;
-                height: 250px;
-                
-            }
-         
             
         /*booking form*/
         #regform{
             font-size: 30px;
             text-justify: auto;
             width: 80%;
-            color: #E11299;
-            border-top: 4px solid #E11299;
+            color: rgb(0, 0, 0);
+            border-top: 4px solid rgb(255, 0, 0);
             background-color: #bde0fe;
             padding-top: 75rem;
             
@@ -1743,7 +2284,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(255, 0, 0);
         
           }
           input[type=email] {
@@ -1751,7 +2292,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(255, 0, 0);
         
           }
           input[type=address] {
@@ -1759,7 +2300,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(255, 0, 0);
         
           }
           input[type=tel] {
@@ -1767,7 +2308,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(255, 0, 0);
         
           }
           input[type=date] {
@@ -1775,7 +2316,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(255, 0, 0);
         
           }
           input[type=password] {
@@ -1783,7 +2324,7 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(255, 0, 0);
         
           }
           input[select-name=stage] {
@@ -1791,52 +2332,50 @@ input[type=text] {
             padding: 12px 20px;
             margin: 8px 0;
             box-sizing: border-box;
-            border: 4px solid #E11299;
+            border: 4px solid rgb(255, 0, 0);
         
           }
-          .Reset {
-                color: rgb(213, 222, 225);
-                background-color: rgb(237, 48, 48);
-                font-size: 30px;
-                border: 4px solid #E11299;
-                padding: 4px;        
-                    }
-          .Submit {
-            color: rgb(213, 222, 225);
-            background-color: rgb(12, 157, 113);
-            font-size: 30px;
-            border: 4px solid #E11299;
-            padding: 4px;
-                 }
+            .Reset {
+                    color: rgb(213, 222, 225);
+                    background-color: rgb(237, 48, 48);
+                    font-size: 30px;
+                    border: 4px solid rgb(255, 0, 0);
+                    padding: 4px;        
+            }
+            .Submit {
+                    color: rgb(213, 222, 225);
+                    background-color: rgb(12, 157, 113);
+                    font-size: 30px;
+                    border: 4px solid rgb(255, 0, 0);
+                    padding: 4px;
+            }
             #stage {
                 width: 50%;
                 padding: 12px 20px;
                 margin: 8px 0;
                 box-sizing: border-box;
-                border: 4px solid #E11299;
+                border: 4px solid rgb(255, 0, 0);
             }
             #room h3{
                 font-size: 10px;
                 text-align: left;
                 margin: 10px 10px;
-                color: #E11299;
+                color: rgb(0, 0, 0);
             }
             #room li {
                 font-size: 10px;
                 text-align: left;
-
             }
 
-            
          /*footer*/
 
-         .social-icon {
+        .social-icon {
             width: 100%;
             height: 6rem;
             text-align: center;
             background-color: #bde0fe;
             float: left;
-            border-top: 4px solid #E11299;
+            border-top: 4px solid #fafcfb;
         }
         .social-bottom{
             display: flex;
@@ -1852,737 +2391,8 @@ input[type=text] {
         }
         
         .social-bottom > p {
-            color: #E11299;
+            color: rgb(0, 0, 0);
             font-size: 10px;
             text-align: right;
         }
-
-}
-
-
-
-
-
-
-
-@media only screen and (max-width: 491px) {
-    .house{
-        width: 98%;
-        height: 98vh;
-        color: gold;
-        background-color: #bde0fe;
-        background-image: url(image/table.avif);
-        background-position: center;
-        background-size: cover;
-        padding-left: 2%;
-        padding-right: 2%;
-        box-sizing: border-box;
-        
-    }
-    /*navigation links heading and logo*/
-    .navbar {
-        height: 10%;
-        display: flex;
-        align-items: center;
-        padding-top: 8px;
-    }
-    .logo {
-        width: 8rem;
-        background-color: #bde0fe;
-        box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-        
-    }
-    .menu-icon {
-        width: 20px;
-        margin-left: 30px;
-    }
-    nav {
-        flex: 1;
-        text-align: right;
-    }
-    nav ul li{
-        list-style: none;
-        display: inline-block;
-        margin-left: 10px;
-    }
-    nav ul li a{
-        text-decoration: none;
-        color: rgb(0, 0, 255);
-        font-size: 10px;
-    }
-    .navbar :hover {
-        color: red;
-        
-    }
-    /*heading*/
-    .row {
-        display: flex;
-        height: 88%;
-        align-items: center;
-        }
-        .col{
-            flex-basis: 50%;
-        }
-        h1{
-            color: rgb(205, 31, 191);
-            font-size: 20px;
-        }
-        .col h1 {
-            color: rgb(205, 31, 191);
-            font-size: 30px;   
-        }
-        .col p {
-            color: blueviolet;
-            font-size: 13px;
-            line-height: 12px;
-            text-align: left;
-        }
-        p{
-            color: blueviolet;
-            font-size: 10px;
-            line-height: 12px;
-            text-align: left;
-        
-        }
-        button {
-            padding: 7px 0;
-            font-size: 7px;
-            width: 100px;
-            color:blue;
-            border: 0;
-            border-radius: 30%;
-            outline: none;
-            margin-top: 5px;
-            margin-left: 0.50rem;
-    
-        }
-        /*for the picture menus*/
-        .file{
-            width: 90%;
-            aspect-ratio: 1.1;
-            display: inline-block;
-            border-radius: 10px;
-            padding: 10px 20px;
-            box-sizing: border-box;
-            margin: 5px 10px;
-            background-position: center;
-            background-size: cover;
-            font-size: 15px;
-            transition: transform 0.5s;
-            box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-        }
-         .file1{
-            width:40%;
-            height: 100px;
-         }
-         .file2{
-            width:40%;
-            height: 100px;
-         }
-         .file3{
-            width:40%;
-            height: 100px;
-         }
-         .file4{
-            width:40%;
-            height: 100px;
-         }
-         
-        .menuhouse{
-            width: 98%;
-            height: 50vh;
-            background-color: #bde0fe;
-            padding-left: 2%;
-            padding-right: 2%;
-            box-sizing: border-box;
-        
-            }
-            #menu {
-                width: 100%;
-                height: 100px;
-                margin-top: 40px;
-                margin-bottom: 20px;
-                position:relative;
-                display: inline-block;
-                font-size: 15px;
-                text-align: center;
-                color: rgb(205, 31, 191);
-                border-top: 4px solid rgb(253, 251, 251);
-            
-            }
-            #menu li{
-                font-size: 11px;
-            }
-            #menu h6{
-                font-size: 8px;
-                font: bold;
-                font-family: 'Courier New', Courier, monospace;
-                padding-bottom: 2px;
-            }
-            #breakf-pix1 {
-                background: url(image/food.avif) no-repeat center center;
-                background-size: cover;
-                width: 24%;
-                height: 90px;
-                position:relative;
-                display: inline-flex;
-                margin-right: 2px;
-                text-align: center;     
-            }
-            #lunch-pix2 {
-                background: url(image/food1.jpeg) no-repeat center center;
-                background-size: cover;
-                width: 24%;
-                height: 90px;
-                position: relative;
-                display: inline-flex;
-                margin-right: 10px;
-                margin-right: 2px;
-            }
-            #dinner-pix3 {
-                background: url(image/food3.jpeg) no-repeat center center;
-                background-size: cover;
-                width: 24%;
-                height: 90px;
-                position: relative;
-                display: inline-flex;
-                margin-right: 2px;
-            }
-            #desert-pix4 {
-                background: url(image/food5.jpeg) no-repeat center center;
-                background-size: cover;
-                width: 24%;
-                height: 90px;
-                position: relative;
-                display: inline-flex;
-            }
-            #menu :hover {
-                transform: translateY(-10px);
-            }
-            /*rooms list*/
-            #roomvid {
-                width: 100%;
-                height: 200px;
-                border-top: 4px solid white;
-                background-color: #bde0fe;
-            }
-            #room {
-                width: 45%;
-                height: 150px;
-                float: left;
-                display: flex; 
-                background-color: #bde0fe;
-                color: rgb(10, 10, 10);
-            }
-            #roomvids {
-                width: 54%;
-                height: 200px;
-                float: right;
-                position: relative;
-                background-size: cover;
-                align-items: center;
-                background-color: #bde0fe;
-            }
-            /*gym section*/
-            #roompic {
-                height: 250;
-                padding-top: 10px;
-                border-top: 4px solid rgb(12, 12, 12);
-                width: 100%;
-            }
-                #gympic {
-                    width: 49%;
-                    height: 0px;
-                    padding-left: 5px;
-                    padding-right: 5px;
-                    margin-top: 10px;
-                    margin-bottom: 10px;
-                    position:relative;
-                    float: left;
-                    border-top: 4px solid rgb(15, 15, 15);
-                    background-color: #bde0fe;
-                }
-                #gym-pix1 {
-                    background: url(image/gym4.jpeg) no-repeat center center;
-                    background-size: cover;
-                    width: 23%;
-                    height: 150px;
-                    position:relative;
-                    display: inline-flex;
-                    margin-right: 5px;
-                    background-color: #bde0fe;
-                }
-                #gym-pix2 {
-                    background: url(image/gym1.jpeg) no-repeat center center;
-                    background-size: cover;
-                    width: 23%;
-                    height: 150px;
-                    position: relative;
-                    display: inline-flex;
-                    margin-right: 10px;
-                    margin-right: 5px;
-                    background-color: #bde0fe;
-                }
-                #gymtext{
-                    width: 49%;
-                    height: 150px;
-                    float: right;
-                    font-size: 20px;
-                    position: relative;
-                    border-top: 4px solid rgb(246, 242, 242);
-                    background-color: #bde0fe;
-        
-                }
-            /*bar section*/
-            #barvid {
-                width: 98%;
-                height: 250px;
-                border-top: 4px solid white;
-                background-color: #bde0fe;
-            }
-            #barvids {
-                width: 47%;
-                height: 250px;
-                float: right;
-                position: relative;
-                background-size: cover;
-                background-color: #bde0fe;
-            }
-            #bartext{
-                width: 49%;
-                height: 200px;
-                float: left;
-                font-size: 20px;
-                color: blueviolet;
-                position: relative;
-                border-top: 4px solid rgb(252, 250, 250);
-                background-color: #bde0fe;
-                padding-bottom: 20px;
-        
-            }
-            /*gallery section*/
-            .galh1{
-                border-top: 4px solid white;
-                width: 99%;
-            }
-            #gallary{
-                width: 100%;
-                height: 900px;
-                display: flex;
-                flex-direction: row-reverse;
-            }
-        
-            #gallery1{
-                background-image: url(image/reception.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid rgb(14, 13, 13);
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-        
-            #gallery2{
-                background-image: url(image/recep2.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid rgb(22, 22, 22);
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-            #gallery3{
-                background-image: url(image/happy.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid rgb(15, 15, 15);
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-            #gallery4{
-                background-image: url(image/room=5.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid rgb(252, 250, 250);
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-            #gallery5{
-                background-image: url(image/masage.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid white;
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-        
-            #gallery6{
-                background-image: url(image/room4.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid white;
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-            #gallery7{
-                background-image: url(image/bar1.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid white;
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-            #gallery8{
-                background-image: url(image/wine6.avif);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid white;
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-            #gallery9{
-                background-image: url(image/yoga.jpeg);
-                width: 30%;
-                height: 200px;
-                display: inline-block;
-                padding: 15px 25px;
-                box-sizing: border-box;
-                margin: 10px 15px;
-                background-position: center;
-                background-size: cover;
-                font-size: 30px;
-                transition: transform 0.5s;
-                border: 2px solid white;
-                box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
-            }
-            #menu {
-                width: 100%;
-                height: 250px;
-                margin-top: 80px;
-                margin-bottom: 20px;
-                position:relative;
-                display: inline-block;
-                font-size: 10px;
-                text-align: left;
-                color: rgb(205, 31, 191);;
-                border-top: 4px solid rgb(253, 251, 251);
-            
-            }
-            #menu h6{
-                font-size: 10px;
-            }
-            #breakf-pix1 {
-                width: 23%;
-                height: 200px;
-
-            }
-            #lunch-pix2 {
-                width: 23%;
-                height: 200px;
-            }
-            #dinner-pix3 {
-                width: 23%;
-                height: 200px;
-            }
-            #desert-pix4 {
-
-                width: 23%;
-                height: 200px;
-                
-            }
-            
-        /*booking form*/
-        #regform{
-            font-size: 20px;
-            text-justify: auto;
-            width: 80%;
-            color: rgb(255, 215, 0);
-            border-top: 4px solid rgb(252, 250, 250);
-            background-color: #bde0fe;
-            margin-top: 20px;
-            padding-left: 10px;
-        }
-        #reghead {
-            text-align: center;
-            margin-bottom: 20px;
-            background-color: #bde0fe;
-            
-        }
-        #regform{
-            margin: 40px 40px 40px 40px;
-        
-        }
-        #regform h1 {
-            font-size: 40px;
-            text-align: center;
-            text-decoration-line: underline;
-            right: 40px;
-        }
-        input[type=text] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        
-          }
-          input[type=email] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        
-          }
-          input[type=address] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        
-          }
-          input[type=tel] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        
-          }
-          input[type=date] {
-            width: 50%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        
-          }
-          input[type=password] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        
-          }
-          input[select-name=stage] {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: 4px solid rgb(255, 215, 0);
-        
-          }
-          .Reset {
-                color: rgb(213, 222, 225);
-                background-color: rgb(237, 48, 48);
-                font-size: 30px;
-                border: 4px solid rgb(255, 215, 0);
-                padding: 4px;        
-                    }
-          .Submit {
-            color: rgb(213, 222, 225);
-            background-color: rgb(12, 157, 113);
-            font-size: 30px;
-            border: 4px solid rgb(255, 215, 0);
-            padding: 4px;
-                 }
-            #stage {
-                width: 50%;
-                padding: 12px 20px;
-                margin: 8px 0;
-                box-sizing: border-box;
-                border: 4px solid rgb(255, 215, 0);
-            }
-            #room h3{
-                font-size: 10px;
-                text-align: left;
-                margin: 10px 10px;
-                color: blueviolet;
-            }
-            #room li {
-                font-size: 6px;
-                text-align: center;
-
-            }
-            #gallary{
-                width: 100%;
-                height: 500px;
-                display: flex;
-                align-items: center;
-                flex-direction: row;
-            }
-        
-            #gallery1{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-        
-            #gallery2{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-            #gallery3{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-            #gallery4{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-            #gallery5{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-        
-            #gallery6{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-            #gallery7{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-            #gallery8{
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-            }
-            #gallery9{
-                
-                width: 90%;
-                height: 250px;
-                display: inline-block;
-                padding: 10px 20px;
-                box-sizing: border-box;
-                margin: 5px 10px;
-                font-size: 15px;
-
-            }
-            .Room li {
-                font-size: 15px;
-            }
-
-         /*footer*/
-
-            .social-icon{
-                width: 100%;
-                height: 6rem;
-                background-color: #bde0fe;
-                float: left;
-            }
-            .social-bottom{
-                display: flex;
-                justify-content:center;
-            }
-            #social > a {
-                color: rgb(58, 8, 238);
-                text-decoration: none;
-                padding: 0 15px;
-                font-size: 3rem;
-                margin-left: 1rem;
-                margin: none;
-            }
-            
-            .social-bottom > p {
-                color: rgb(58, 8, 238);
-                font-size: 10px;
-                text-align: right;
-            }
-
-
 }
