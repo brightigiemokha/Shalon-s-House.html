@@ -98,18 +98,7 @@ nav ul li a{
         text-align: justify;
     
     }
-    button {
-        padding: 12px 0;
-        font-size: 12px;
-        width: 180px;
-        color: rgb(0, 0, 0);
-        border: 0;
-        border-radius: 20%;
-        outline: none;
-        margin-top: 30px;
-        margin-left: 14rem;
 
-    }
     /*for the picture menus*/
     .file{
         width: 250px;
@@ -121,7 +110,6 @@ nav ul li a{
         background-position: center;
         background-size: cover;
         font-size: 30px;
-        transition: transform 0.5s;
         box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     }
     .file1{
@@ -413,7 +401,6 @@ nav ul li a{
         background-image: url(image/reception.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -422,7 +409,6 @@ nav ul li a{
         background-image: url(image/recep2.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -430,7 +416,6 @@ nav ul li a{
         background-image: url(image/happy.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -438,7 +423,6 @@ nav ul li a{
         background-image: url(image/room=5.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -446,7 +430,6 @@ nav ul li a{
         background-image: url(image/masage.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -455,7 +438,6 @@ nav ul li a{
         background-image: url(image/room4.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -463,7 +445,6 @@ nav ul li a{
         background-image: url(image/bar1.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -471,7 +452,6 @@ nav ul li a{
         background-image: url(image/wine6.avif);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
@@ -479,13 +459,10 @@ nav ul li a{
         background-image: url(image/yoga.jpeg);
         width: 30%;
         height: 400px;
-        transition: transform 0.5s;
         border: 2px solid #fcfafb;
         box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
     }
-    #gallery :hover {
-        transform: translateY(-10px);
-    }
+
 /*booking form*/
 #regform {
     font-size: 30px;
@@ -726,7 +703,6 @@ input[type=text] {
             background-position: center;
             background-size: cover;
             font-size: 30px;
-            transition: transform 0.5s;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         }
         .file1{
@@ -991,7 +967,6 @@ input[type=text] {
                 background-image: url(image/reception.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1000,7 +975,6 @@ input[type=text] {
                 background-image: url(image/recep2.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1008,7 +982,6 @@ input[type=text] {
                 background-image: url(image/happy.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1016,7 +989,6 @@ input[type=text] {
                 background-image: url(image/room=5.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1024,7 +996,6 @@ input[type=text] {
                 background-image: url(image/masage.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1033,7 +1004,6 @@ input[type=text] {
                 background-image: url(image/room4.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1048,7 +1018,6 @@ input[type=text] {
                 background-image: url(image/wine1.avif);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
                 
@@ -1057,7 +1026,6 @@ input[type=text] {
                 background-image: url(image/yoga.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1326,7 +1294,6 @@ input[type=text] {
             background-position: center;
             background-size: cover;
             font-size: 30px;
-            transition: transform 0.5s;
             box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
         }
         .file1{
@@ -1591,7 +1558,6 @@ input[type=text] {
                 background-image: url(image/reception.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1600,7 +1566,6 @@ input[type=text] {
                 background-image: url(image/recep2.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1608,7 +1573,6 @@ input[type=text] {
                 background-image: url(image/happy.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1616,7 +1580,6 @@ input[type=text] {
                 background-image: url(image/room=5.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1624,7 +1587,6 @@ input[type=text] {
                 background-image: url(image/masage.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1633,7 +1595,6 @@ input[type=text] {
                 background-image: url(image/room4.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1648,7 +1609,6 @@ input[type=text] {
                 background-image: url(image/wine1.avif);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
                 
@@ -1657,7 +1617,6 @@ input[type=text] {
                 background-image: url(image/yoga.jpeg);
                 width: 45%;
                 height: 300px;
-                transition: transform 0.5s;
                 border: 2px solid #fafcfb;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -1836,6 +1795,7 @@ input[type=text] {
         display: flex;
         align-items: center;
         padding-top: 8px;
+        padding-bottom: 20px;
     }
     .logo {
         width: 10rem;
@@ -1869,18 +1829,21 @@ input[type=text] {
     .row {
         display: flex;
         height: 88%;
-        align-items: center;
+        flex-direction: column;
+        justify-content: center;
         }
         .col{
-            flex-basis: 50%;
+            display: flex;
+            flex-direction: row;
         }
-        .col h1{
+        .col1 h1{
             color: rgb(255, 0, 0);
-            font-size: 38px;
+            font-size: 48px;
+            
         }
         .col p{
             color: rgb(255, 0, 0);
-            font-size: 15px;
+            font-size: 130px;
             line-height: 12px;
             text-align: left;
         
@@ -1897,54 +1860,34 @@ input[type=text] {
             text-align: left;
         
         }
-        button {
-            padding: 7px 0;
-            font-size: 15px;
-            width: 100px;
-            color:rgb(0, 0, 0);
-            border: 0;
-            border-radius: 30%;
-            outline: none;
-            margin-top: 10px;
-            margin-left: 1rem;
-    
-        }
+       
         /*for the picture menus*/
         .file{
             width: 100%;
-            aspect-ratio: 1.1;
-            display: inline-block;
-            border-radius: 10px;
-            padding: 5px 10px;
-            box-sizing: border-box;
-            margin: 5px 5px;
+            display: flex;
+            flex-direction: row;
             background-position: center;
             background-size: cover;
-            font-size: 15px;
-            transition: transform 0.5s;
-            box-shadow: rgba(250, 249, 249, 0.05) 0px 6px 24pxrgba(253, 251, 251, 0.08) 0px 0px 0px 1px;
+            font-size: 20px;
+           
         }
         .file1{
             width:40%;
-            height: 100px;
+            height: 200px;
          }
          .file2{
             width:40%;
-            height: 100px;
+            height: 200px;
          }
          .file3{
             width:40%;
-            height: 100px;
+            height: 200px;
          }
          .file4{
             width:40%;
-            height: 100px;
+            height: 200px;
          }
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1rem;
-        }
+
          
          
         .menuhouse{
@@ -1958,9 +1901,9 @@ input[type=text] {
             }
             #menu {
                 width: 100%;
-                height: 200vh;
+                height: 180vh;
                 margin-top: 40px;
-                margin-bottom: 20px;
+                margin-bottom: 2px;
                 flex-direction: column;
                 display: flex;
                 font-size: 15px;
@@ -2016,7 +1959,7 @@ input[type=text] {
                 background-color: #bde0fe;
                 border-bottom: none;
                 margin-bottom: 50px;
-                padding-bottom: 2rem;
+                padding-bottom: 1rem;
                 
             }
             #room {
@@ -2030,6 +1973,7 @@ input[type=text] {
                 color: rgb(0, 0, 0);
                 border-top: none;
                 padding-top: 1.4rem;
+                padding-bottom: 20px;
 
             }
            
@@ -2134,7 +2078,6 @@ input[type=text] {
                 margin: 5px 5px;
                 background-position: center;
                 background-size: cover;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2149,7 +2092,6 @@ input[type=text] {
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2163,7 +2105,6 @@ input[type=text] {
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2177,7 +2118,6 @@ input[type=text] {
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2190,7 +2130,6 @@ input[type=text] {
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2205,7 +2144,6 @@ input[type=text] {
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2219,7 +2157,6 @@ input[type=text] {
                 background-position: center;
                 background-size: cover;
                 font-size: 30px;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2232,7 +2169,6 @@ input[type=text] {
                 margin: 0px 0px;
                 background-position: center;
                 background-size: cover;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2245,7 +2181,6 @@ input[type=text] {
                 margin: 0px 0px;
                 background-position: center;
                 background-size: cover;
-                transition: transform 0.5s;
                 border: none;
                 box-shadow: rgb(213, 222, 225) 0px 6px 24px 0px, rgba(213, 222, 225) 0px 0px 0px 1px;
             }
@@ -2384,9 +2319,9 @@ input[type=text] {
         #social > a {
             color: rgb(58, 8, 238);
             text-decoration: none;
-            padding: 0 20px;
+            padding: 0 10px;
             font-size: 3rem;
-            text-align: center;
+            text-align: left;
             margin-left: 3rem;
         }
         
