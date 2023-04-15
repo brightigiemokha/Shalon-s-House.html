@@ -42,7 +42,7 @@ the Gallery section show some images of what beauty Shalons House is. it cover f
 
 <h2>Bar</h2>
 
-<img src="bar.png">
+<img src="image/bar.png">
 
 the Bar section express our desires to fulfill guest dream of a perfect drinking spot with different variaty of drives and great service bar attendant.
  <br>
