@@ -1,16 +1,16 @@
 <h1>SHALON'S HOUSE</h1>
 
- <img src="image/appearance.png">
+ <img src="image/responsive.png">
 
-Shalon's House is a dream soon ti be fulfilled. a dream of one of the best hotel united kindgom will soon see come true. an hotel with all beautiful features for a perfect relaxation spot. A perfect home away from home.
+Shalon's House is a dream soon t0 be fulfilled. a dream of one of the best hotel united kindgom will soon see come true. an hotel with all beautiful features for a perfect relaxation spot. A perfect home away from home.
 
 <h1>Features</h1>
 
 <h2>Navigation</h2>
-<img src="image/navigation.png">
-<img src="image/navlink.png>
+<img src="image/new-nav.png">
+<img src="image/new-nav2.png>
 
-<p>At the top of the page is the navigation bar, which shows the website logo, Shalon's house. To the right are of the index page i have plave just 2 links there, Home and Menu and on the second (menu page) i have five navigation links: Home, Menu, booking-in, contact, gallery which link
+<p>At the top of the page is the navigation bar, which shows the website logo, Shalon's house. To the right are of the index page i have place just 3 links there, Home, Menu & Contact and on the second (menu page) i have five navigation links: Home, Menu, booking-in, contact, gallery which link
 to different sections of the main page.</p>
 <p>The navigation is in a simple Oswald for easy viewing, and it's also a perfect administrative fonts for professional writings.
 <p>The navigation is simple to use and makes it clear what they are about.
@@ -19,7 +19,7 @@ to different sections of the main page.</p>
 <h2>The Home Section</h2>
 
 
-<img src="image/shalonesh.png">
+<img src="image/homepage">
 
 <p>The home section introduce the reader to the hotel and what features they have. its a beautiful front page with 4 pictures to make it very clear what section it's talking about. e.g the bar, gym, food and the rooms </p>
 
@@ -67,26 +67,26 @@ No known bugs have been found.
 
 <h2>Validator Testing</h2>
 
-<strong>HTML</strong> - Unfortunately, the <a href="https://validator.w3.org/nu/#textarea">W3C Validator</a> detected 6 errors and 7 warnings. 
+<strong>HTML</strong> - Unfortunately, the <a href="https://validator.w3.org/nu/#textarea">W3C Validator</a> detected 4 errors and 5 warnings. 
 
 <p>
-I tried to correct some of these errors, but it wasnt clear what exactly i was to correct as they were codes i thought where correct. i didnt have much time to get some help because of time and i work full time.
+I tried to correct some of these errors, but i have limited time as i am a full time woprker and didnt have enough time to completely correct all . if i did it would have affected my abiolity to submit today as it could have affected other media querries. 
 
 <br>
-<strong>CSS</strong> - there was 1 error found with CSS when checked on <a href="https://validator.w3.org/nu/#l2c70".>w3 validator</a> this error was the font link copied from google font and have been pasted correctly.
+<strong>CSS</strong> - there was 1 error found with CSS when checked on <a href="https://validator.w3.org/nu/#textarea".>w3 validator</a> this error was the font link copied from google font and have been pasted correctly.
 
-<img src="image/errors.png">
+<img src="image/errors2.png">
 
 <br>
 <strong>Accessibility</strong>
 
-I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.<a href="https://8000-brightigiem-shalonshous-6ob6uzuearb.ws-eu82.gitpod.io/index.html">lighthouse</a>
+I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.<a href="https://8000-brightigiem-shalonshous-1w1704r2rmn.ws-eu94.gitpod.io/menu.html">lighthouse</a>
 
 
-<img src="image/lighth.png">
+<img src="image/desktop-version.png">
 <p><p></p>Desktop stats
 
-<<img src="image/lightho.png">
+<<img src="image/mobile-house.png">
 </p>Mobile stats
 
 <p>
@@ -102,7 +102,7 @@ it will take you to the live website address.
 All image was taken from  <a href="https://unsplash.com/">Unsplash</a>
 All other images were taken by me.
 
-Thanks to Lucimeri Andretta , Tomasz Ostroga , and Jochem
+Special thanks to Tomislav Dukez, Lucimeri Andretta , Tomasz Ostroga , and Jochem
 #7438 on Discord for stepping in for mentor sessions and help. Thanks to my mentor, Rahul_mentor for helping me create a good looking site and 
 picking up on where I needed to go. Thanks to the Slack community for answering lots of questions.</p>
 
