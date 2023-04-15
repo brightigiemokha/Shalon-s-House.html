@@ -116,24 +116,46 @@ nav ul li a{
     }
     .file1{
         background-image: url(image/room3.jpeg);
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        height: 40% ;
+        background-color: #fafcfb;
+        opacity: 0.7;
+
 
     }
 
     .file2{
         background-image: url(image/food3.jpeg);
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        height: 40% ;
+        background-color: #fafcfb;
+        opacity: 0.7;
 
     }
     .file3{
         background-image: url(image/bar.jpeg);
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        height: 40% ;
+        background-color: #fafcfb;
+        opacity: 0.7;
 
     }
     .file4{
         background-image: url(image/gym3.jpeg);
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        height: 40% ;
+        background-color: #fafcfb;
+        opacity: 0.7;
     }
-    .col :hover {
-        transform: translateY(-10px);
-        
-    }
+
 
     .menuhouse{
     width: 100%;
@@ -1957,11 +1979,10 @@ input[type=text] {
                 height: 300px;
                 display: flex;
                 flex-direction: column;
+                justify-content: space-around;
                 border-top: 4px solid #fcfafb;
-                background-color: #bde0fe;
                 border-bottom: none;
-                margin-bottom: 50px;
-                padding-bottom: 1rem;
+                padding-top: 3rem;
                 
             }
             #room {
@@ -1974,18 +1995,18 @@ input[type=text] {
                 background-color: #bde0fe;
                 color: rgb(0, 0, 0);
                 border-top: none;
-                padding-top: 1.4rem;
-                padding-bottom: 20px;
+                border-bottom: none;
+
 
             }
            
             #roomvids {
                 width: 100%;
-                height: 250px;
+                height: 200px;
                 float: none;
-                position: relative;
-                background-size: cover;
-                background-color: #bde0fe;
+                padding-bottom: 2rem;
+                position: static;
+                
             }
             /*gym section*/
                 #gympic {
@@ -1995,7 +2016,6 @@ input[type=text] {
                     padding-right: 5px;
                     margin-top: 10px;
                     margin-bottom: 10px;
-                    position:relative;
                     float: left;
                     border-top: 4px solid #fafcfb;
                     background-color: #bde0fe;
@@ -2037,26 +2057,26 @@ input[type=text] {
             /*bar section*/
             #barvid {
                 width: 99%;
-                height: 500px;
+                height: 400px;
                 display: flex;
-                flex-direction: column-reverse;
+                flex-direction: column;
                 justify-content: center;
+                padding-bottom: 10rem;
             }
             #barvids {
                 width: 100%;
-                height: 250px;
-                float: right;
-                position: relative;
+                height: 150px;
+                float: none;
                 background-size: cover;
                 background-color: #bde0fe;
             }
             #bartext{
                 width: 100%;
                 height: 150px;
-                float: left;
+                float: none;
                 font-size: 20px;
                 color: rgb(0, 0, 0);
-                position: relative;
+
                 border-top: none;
                 background-color: #bde0fe;
         
