@@ -75,8 +75,8 @@ I tried to correct some of these errors, but i have limited time as i am a full 
 <br>
 <strong>CSS</strong> - there was 1 error found with CSS when checked on <a href="https://validator.w3.org/nu/#textarea".>w3 validator</a> this error was the font link copied from google font and have been pasted correctly.
 
-[css errors image](assets/readme_files/css_error.png)
-[validator errors image](assets/readme_files/errors.png)
+![css errors image](assets/readme_files/css_error.png)
+![validator errors image](assets/readme_files/errors.png)
 
 <br>
 <strong>Accessibility</strong>
@@ -84,13 +84,12 @@ I tried to correct some of these errors, but i have limited time as i am a full 
 I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.<a href="https://8000-brightigiem-shalonshous-1w1704r2rmn.ws-eu94.gitpod.io/menu.html">lighthouse</a>
 
 
-<img src="image/desktop-version.png">
-<p><p></p>Desktop stats
+![desktop lighthouse image](assets/readme_files/desktop_version.png)
+<p>Desktop stats</p>
 
-<<img src="image/mobile-house.png">
-</p>Mobile stats
+![mobile lighthouse image](assets/readme_files/mobile_version.png)
+<p>Mobile stats</p>
 
-<p>
 <h1>Deployment</h1>
 
 The site was deployed to Github pages. To get to the page, go to the Github repositry, and head for the Settings tab. Click 'Pages' on the left-hand column, and 
