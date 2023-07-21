@@ -1,6 +1,6 @@
 <h1>SHALON'S HOUSE</h1>
 
- <img src="image/responsive.png">
+ ![homepage am i responsive image](assets/readme_files/responsive.png)
 
 Shalon's House is a dream soon t0 be fulfilled. a dream of one of the best hotel united kindgom will soon see come true. an hotel with all beautiful features for a perfect relaxation spot. A perfect home away from home.
 
