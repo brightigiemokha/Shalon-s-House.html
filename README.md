@@ -87,7 +87,7 @@ I made sure the page was easy to read and navigate by running it through Lightho
 ![desktop lighthouse image](assets/readme_files/desktop_version.png)
 <p>Desktop stats</p>
 
-![mobile lighthouse image](assets/readme_files/mobile_version.png)
+![mobile lighthouse image](assets/readme_files/mobile_house.png)
 <p>Mobile stats</p>
 
 <h1>Deployment</h1>
