@@ -26,7 +26,7 @@ to different sections of the main page.</p>
 <br>
 <h2>The menu</h2>
 
-![bar image](assets/readme_files/bar.png)
+![menu image](assets/readme_files/menu.png)
 
 the menu nav lead to a page with what to expect in terms of food, the breakfast Lunch and Dinner this also include deserts. it also introduce the reader to the rooms and other feautures like Bar and gym
 
@@ -34,7 +34,7 @@ the menu nav lead to a page with what to expect in terms of food, the breakfast 
 
 <h2>The Gallery</h2>
 
-<img src="image/gallery.png">
+![gallery image](assets/readme_files/gallery.png)
 
 the Gallery section show some images of what beauty Shalons House is. it cover from the receptions to the rooms, bar gym and food. making a clearer expectation for the reader
 
@@ -42,7 +42,7 @@ the Gallery section show some images of what beauty Shalons House is. it cover f
 
 <h2>Bar</h2>
 
-<img src="image/bar.png">
+![bar image](assets/readme_files/bar.png)
 
 the Bar section express our desires to fulfill guest dream of a perfect drinking spot with different variaty of drives and great service bar attendant.
  <br>
@@ -75,7 +75,8 @@ I tried to correct some of these errors, but i have limited time as i am a full 
 <br>
 <strong>CSS</strong> - there was 1 error found with CSS when checked on <a href="https://validator.w3.org/nu/#textarea".>w3 validator</a> this error was the font link copied from google font and have been pasted correctly.
 
-<img src="image/errors2.png">
+[css errors image](assets/readme_files/css_error.png)
+[validator errors image](assets/readme_files/errors.png)
 
 <br>
 <strong>Accessibility</strong>
