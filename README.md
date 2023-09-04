@@ -7,8 +7,8 @@ Shalon's House is a dream soon t0 be fulfilled. a dream of one of the best hotel
 <h1>Features</h1>
 
 <h2>Navigation</h2>
-![Navigation image](assets/readme_files/new-nav.png)
-![Navigation image](assets/readme_files/new-nav2.png)
+![Navigation image](assets/readme_images/directory/new-nav.png)
+![Navigation image](assets/readme_images/directory/new-nav2.png)
 
 <p>At the top of the page is the navigation bar, which shows the website logo, Shalon's house. To the right are of the index page i have place just 3 links there, Home, Menu & Contact and on the second (menu page) i have five navigation links: Home, Menu, booking-in, contact, gallery which link
 to different sections of the main page.</p>
