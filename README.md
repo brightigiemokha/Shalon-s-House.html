@@ -1,6 +1,6 @@
 <h1>SHALON'S HOUSE</h1>
 
- ![homepage am i responsive image](assets/readme_files/responsive.png)
+ ![homepage am i responsive image](assets/readme_images/directory/responsive.png)
 
 Shalon's House is a dream soon t0 be fulfilled. a dream of one of the best hotel united kindgom will soon see come true. an hotel with all beautiful features for a perfect relaxation spot. A perfect home away from home.
 
@@ -19,14 +19,14 @@ to different sections of the main page.</p>
 <h2>The Home Section</h2>
 
 
-![homepage image](assets/readme_files/homepage.png)
+![homepage image](assets/readme_images/directory/homepage.png)
 
 <p>The home section introduce the reader to the hotel and what features they have. its a beautiful front page with 4 pictures to make it very clear what section it's talking about. e.g the bar, gym, food and the rooms </p>
 
 <br>
 <h2>The menu</h2>
 
-![menu image](assets/readme_files/menu.png)
+![menu image](assets/readme_images/directory/menu.png)
 
 the menu nav lead to a page with what to expect in terms of food, the breakfast Lunch and Dinner this also include deserts. it also introduce the reader to the rooms and other feautures like Bar and gym
 
@@ -34,7 +34,7 @@ the menu nav lead to a page with what to expect in terms of food, the breakfast 
 
 <h2>The Gallery</h2>
 
-![gallery image](assets/readme_files/gallery.png)
+![gallery image](assets/readme_images/directory/gallery.png)
 
 the Gallery section show some images of what beauty Shalons House is. it cover from the receptions to the rooms, bar gym and food. making a clearer expectation for the reader
 
@@ -42,7 +42,7 @@ the Gallery section show some images of what beauty Shalons House is. it cover f
 
 <h2>Bar</h2>
 
-![bar image](assets/readme_files/bar.png)
+![bar image](assets/readme_images/directory/bar.png)
 
 the Bar section express our desires to fulfill guest dream of a perfect drinking spot with different variaty of drives and great service bar attendant.
  <br>
@@ -75,8 +75,8 @@ I tried to correct some of these errors, but i have limited time as i am a full 
 <br>
 <strong>CSS</strong> - there was 1 error found with CSS when checked on <a href="https://validator.w3.org/nu/#textarea".>w3 validator</a> this error was the font link copied from google font and have been pasted correctly.
 
-![css errors image](assets/readme_files/css_error.png)
-![validator errors image](assets/readme_files/errors.png)
+![css errors image](assets/readme_images/directory/css_error.png)
+![validator errors image](assets/readme_images/directory/errors.png)
 
 <br>
 <strong>Accessibility</strong>
@@ -84,10 +84,10 @@ I tried to correct some of these errors, but i have limited time as i am a full 
 I made sure the page was easy to read and navigate by running it through Lighthouse on devtools, for both mobile and desktop.<a href="https://8000-brightigiem-shalonshous-1w1704r2rmn.ws-eu94.gitpod.io/menu.html">lighthouse</a>
 
 
-![desktop lighthouse image](assets/readme_files/desktop_version.png)
+![desktop lighthouse image](assets/readme_images/directory/desktop_version.png)
 <p>Desktop stats</p>
 
-![mobile lighthouse image](assets/readme_files/mobile_house.png)
+![mobile lighthouse image](assets/readme_images/directory/mobile_house.png)
 <p>Mobile stats</p>
 
 <h1>Deployment</h1>
